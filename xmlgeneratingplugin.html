@@ -11,33 +11,22 @@
 				'properties_xmlGeneratingPluginType_parameter', 
 				'properties_xmlGeneratingPluginType_xmlGeneratingPluginType_script_source', 
 				'properties_xmlGeneratingPluginType_xmlGeneratingPluginType_parameter_name');
-
-        
-        var facetsBoxes= new Array('facets_xmlGeneratingPluginType_xmlGeneratingPluginType_script_source');
-
-        var usedByBoxes= new Array('usedBy_xmlGeneratingPluginType_xmlGeneratingPluginType_script_source', 
+var facetsBoxes= new Array('facets_xmlGeneratingPluginType_xmlGeneratingPluginType_script_source');
+var usedByBoxes= new Array('usedBy_xmlGeneratingPluginType_xmlGeneratingPluginType_script_source', 
 				'usedBy_xmlGeneratingPluginType_xmlGeneratingPluginType_parameter_name');
-
-        var sourceBoxes= new Array('source_xmlGeneratingPluginType_script', 
+var sourceBoxes= new Array('source_xmlGeneratingPluginType_script', 
 				'source_xmlGeneratingPluginType_parameter', 
 				'source_xmlGeneratingPluginType', 
 				'source_xmlGeneratingPluginType_xmlGeneratingPluginType_script_source', 
 				'source_xmlGeneratingPluginType_xmlGeneratingPluginType_parameter_name');
-
-        
-        var diagramBoxes= new Array('diagram_xmlGeneratingPluginType_script', 
+var diagramBoxes= new Array('diagram_xmlGeneratingPluginType_script', 
 				'diagram_xmlGeneratingPluginType_parameter', 
 				'diagram_xmlGeneratingPluginType');
-
-        
-        var attributesBoxes= new Array('attributes_xmlGeneratingPluginType_script', 
+var attributesBoxes= new Array('attributes_xmlGeneratingPluginType_script', 
 				'attributes_xmlGeneratingPluginType_parameter');
+var modelBoxes= new Array('model_xmlGeneratingPluginType');
 
-        
-        
-        
-        var modelBoxes= new Array('model_xmlGeneratingPluginType');
-
+      
         var button_prefix = 'button_';
         
         /**
@@ -266,7 +255,8 @@
          }
           
 
-    --></script></head>
+    
+                    //--></script></head>
    <body>
       <div id="global_controls" class="globalControls" style="position:absolute;right:0;">
          <table class="rt">
@@ -324,8 +314,46 @@
          <div class="level1" id="toc_group_by_namespace" style="display:block">
             <div>
                <div class="level2">
-                  <p><input id="button_boxIdNamespace1" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1');" class="control" /><span class="indexGroupTitle">http://med.kuleuven.be/exporl/apex/3.1.5/experiment</span></p>
+                  <p><input id="button_boxIdNamespace1" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1');" class="control" /><span class="indexGroupTitle">http://med.kuleuven.be/exporl/apex/4.0.0/experiment</span></p>
                   <div id="boxIdNamespace1" style="display:block">
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
+                                          <td class="componentGroup"><input id="button_boxIdNamespace1Main_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1Main_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Main Schema</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="boxIdNamespace1Main_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="xmlgeneratingplugin.html#xmlgeneratingplugin.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">xmlgeneratingplugin.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
                      <div class="horizontalLayout">
                         <table class="rt">
                            <tr>
@@ -348,7 +376,7 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="boxIdNamespace1Complex_Type" class="componentGroup" style="display:block">
-                                                <div><b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b></div>
+                                                <div><b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -384,6 +412,44 @@
                            <table class="componentGroup">
                               <tbody>
                                  <tr>
+                                    <td class="componentGroup"><input id="button_Main_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('Main_schema');" class="control" /></td>
+                                    <td class="componentGroup">
+                                       <div class="componentGroupTitle">Main Schema</div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="componentGroup"></td>
+                                    <td class="componentGroup">
+                                       <div id="Main_schema" class="componentGroup" style="display:block">
+                                          <div><b><a href="xmlgeneratingplugin.html#xmlgeneratingplugin.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">xmlgeneratingplugin.xsd</a></b></div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </td>
+                        <td class="rt_lineRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_cornerBottomLeft"></td>
+                        <td class="rt_lineBottom"></td>
+                        <td class="rt_cornerBottomRight"></td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="horizontalLayout">
+                  <table class="rt">
+                     <tr>
+                        <td class="rt_cornerTopLeft"></td>
+                        <td class="rt_lineTop"></td>
+                        <td class="rt_cornerTopRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_lineLeft"></td>
+                        <td class="rt_content">
+                           <table class="componentGroup">
+                              <tbody>
+                                 <tr>
                                     <td class="componentGroup"><input id="button_Complex_Type" type="image" value="-" src="img/btM.gif" onclick="switchState('Complex_Type');" class="control" /></td>
                                     <td class="componentGroup">
                                        <div class="componentGroupTitle">Complex Types</div>
@@ -393,7 +459,7 @@
                                     <td class="componentGroup"></td>
                                     <td class="componentGroup">
                                        <div id="Complex_Type" class="componentGroup" style="display:block">
-                                          <div><b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b></div>
+                                          <div><b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b></div>
                                        </div>
                                     </td>
                                  </tr>
@@ -430,6 +496,44 @@
                                  <table class="componentGroup">
                                     <tbody>
                                        <tr>
+                                          <td class="componentGroup"><input id="button_gr_xmlgeneratingplugin.xsdMain_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_xmlgeneratingplugin.xsdMain_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Main Schema</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="gr_xmlgeneratingplugin.xsdMain_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="xmlgeneratingplugin.html#xmlgeneratingplugin.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">xmlgeneratingplugin.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
                                           <td class="componentGroup"><input id="button_gr_xmlgeneratingplugin.xsdComplex_Type" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_xmlgeneratingplugin.xsdComplex_Type');" class="control" /></td>
                                           <td class="componentGroup">
                                              <div class="componentGroupTitle">Complex Types</div>
@@ -439,7 +543,7 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="gr_xmlgeneratingplugin.xsdComplex_Type" class="componentGroup" style="display:block">
-                                                <div><b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b></div>
+                                                <div><b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -474,7 +578,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -498,7 +602,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -511,7 +615,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_script"></a><div class="componentTitle">Element <span class="qname"><b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b> / script</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_script"></a><div class="componentTitle">Element <span class="qname"><b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b> / script</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -624,7 +728,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -637,7 +741,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_parameter"></a><div class="componentTitle">Element <span class="qname"><b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b> / parameter</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_parameter"></a><div class="componentTitle">Element <span class="qname"><b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b> / parameter</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -748,7 +852,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -775,7 +879,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -848,7 +952,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -861,7 +965,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_xmlGeneratingPluginType_script_source"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b> / <b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType_script" target="_self" title="No namespace">script</a></b> / @source</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_xmlGeneratingPluginType_script_source"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b> / <b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType_script" target="_self" title="No namespace">script</a></b> / @source</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -966,7 +1070,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -979,7 +1083,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_xmlGeneratingPluginType_parameter_name"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b> / <b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType_parameter" target="_self" title="No namespace">parameter</a></b> / @name</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_xmlGeneratingPluginType_parameter_name"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b> / <b><a href="xmlgeneratingplugin.html#xmlGeneratingPluginType_parameter" target="_self" title="No namespace">parameter</a></b> / @name</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1048,7 +1152,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1067,7 +1171,7 @@
          <div align="center">XML Schema documentation generated by <a href="http://www.oxygenxml.com" target="_parent"><span class="oXygenLogo"><span class="redX">&lt;</span>o<span class="redX">X</span>ygen<span class="redX">/&gt;</span></span></a><sup>®</sup> XML Editor.
          </div>
       </div><script type="text/javascript">
-         <!--                     
+         <!--
                      // The namespace is the selected option in the TOC combo.
                     
                      // Floats the toolbar.
@@ -1095,5 +1199,5 @@
 	                     
 	                     globalControls.style.right='0';                       
                      }
-                --></script></body>
+                //--></script></body>
 </html>

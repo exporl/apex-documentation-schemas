@@ -17,21 +17,17 @@
 				'properties_connectToType_channel', 
 				'properties_connectFromType_connectFromType_id_mode', 
 				'properties_filterParam_id');
-
-        
-        var facetsBoxes= new Array('facets_unsignedPlus-1', 
+var facetsBoxes= new Array('facets_unsignedPlus-1', 
 				'facets_all', 
 				'facets_connectFromType_connectFromType_id_mode');
-
-        var usedByBoxes= new Array('usedBy_connectFromType', 
+var usedByBoxes= new Array('usedBy_connectFromType', 
 				'usedBy_idOrAll', 
 				'usedBy_connectToType', 
 				'usedBy_unsignedPlus-1', 
 				'usedBy_connectFromType_connectFromType_id_mode', 
 				'usedBy_filterParam_id', 
 				'usedBy_filterParam');
-
-        var sourceBoxes= new Array('source_connectionsType_connection', 
+var sourceBoxes= new Array('source_connectionsType_connection', 
 				'source_connectionsType_connectionsType_connection_from', 
 				'source_connectFromType_id', 
 				'source_connectFromType_channel', 
@@ -47,12 +43,10 @@
 				'source_connectFromType_connectFromType_id_mode', 
 				'source_filterParam_id', 
 				'source_filterParam');
-
-        var instanceBoxes= new Array('instance_connectionsType_connection', 
+var instanceBoxes= new Array('instance_connectionsType_connection', 
 				'instance_connectionsType_connectionsType_connection_from', 
 				'instance_connectionsType_connectionsType_connection_to');
-
-        var diagramBoxes= new Array('diagram_connectionsType_connection', 
+var diagramBoxes= new Array('diagram_connectionsType_connection', 
 				'diagram_connectionsType_connectionsType_connection_from', 
 				'diagram_connectFromType_id', 
 				'diagram_connectFromType_channel', 
@@ -66,14 +60,12 @@
 				'diagram_unsignedPlus-1', 
 				'diagram_all', 
 				'diagram_filterParam');
-
-        var annotationBoxes= new Array('annotations_connectionsType_connectionsType_connection_from', 
+var annotationBoxes= new Array('annotations_connectionsType_connectionsType_connection_from', 
 				'annotations_connectFromType_channel', 
 				'annotations_connectionsType_connectionsType_connection_to', 
 				'annotations_connectToType_channel', 
 				'annotations_connectFromType_connectFromType_id_mode');
-
-        var attributesBoxes= new Array('attributes_connectionsType_connectionsType_connection_from', 
+var attributesBoxes= new Array('attributes_connectionsType_connectionsType_connection_from', 
 				'attributes_connectFromType_id', 
 				'attributes_connectFromType_channel', 
 				'attributes_connectionsType_connectionsType_connection_to', 
@@ -81,17 +73,14 @@
 				'attributes_connectFromType', 
 				'attributes_connectToType', 
 				'attributes_filterParam');
-
-        
-        
-        
-        var modelBoxes= new Array('model_connectionsType_connection', 
+var modelBoxes= new Array('model_connectionsType_connection', 
 				'model_connectionsType_connectionsType_connection_from', 
 				'model_connectionsType_connectionsType_connection_to', 
 				'model_connectionsType', 
 				'model_connectFromType', 
 				'model_connectToType');
 
+      
         var button_prefix = 'button_';
         
         /**
@@ -320,7 +309,8 @@
          }
           
 
-    --></script></head>
+    
+                    //--></script></head>
    <body>
       <div id="global_controls" class="globalControls" style="position:absolute;right:0;">
          <table class="rt">
@@ -384,8 +374,84 @@
          <div class="level1" id="toc_group_by_namespace" style="display:block">
             <div>
                <div class="level2">
-                  <p><input id="button_boxIdNamespace1" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1');" class="control" /><span class="indexGroupTitle">http://med.kuleuven.be/exporl/apex/3.1.5/experiment</span></p>
+                  <p><input id="button_boxIdNamespace1" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1');" class="control" /><span class="indexGroupTitle">http://med.kuleuven.be/exporl/apex/4.0.0/experiment</span></p>
                   <div id="boxIdNamespace1" style="display:block">
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
+                                          <td class="componentGroup"><input id="button_boxIdNamespace1Main_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1Main_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Main Schema</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="boxIdNamespace1Main_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="connections.html#connections.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">connections.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
+                                          <td class="componentGroup"><input id="button_boxIdNamespace1Included_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1Included_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Included Schemas</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="boxIdNamespace1Included_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="connections.html#parameter.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">parameter.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
                      <div class="horizontalLayout">
                         <table class="rt">
                            <tr>
@@ -408,9 +474,9 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="boxIdNamespace1Complex_Type" class="componentGroup" style="display:block">
-                                                <div><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectFromType</a></b></div>
-                                                <div><b><a href="connections.html#connectToType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectToType</a></b></div>
-                                                <div><b><a href="connections.html#connectionsType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectionsType</a></b></div>
+                                                <div><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectFromType</a></b></div>
+                                                <div><b><a href="connections.html#connectToType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectToType</a></b></div>
+                                                <div><b><a href="connections.html#connectionsType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectionsType</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -448,9 +514,9 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="boxIdNamespace1Simple_Type" class="componentGroup" style="display:block">
-                                                <div><b><a href="connections.html#all" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:all</a></b></div>
-                                                <div><b><a href="connections.html#idOrAll" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:idOrAll</a></b></div>
-                                                <div><b><a href="connections.html#unsignedPlus-1" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:unsignedPlus-1</a></b></div>
+                                                <div><b><a href="connections.html#all" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:all</a></b></div>
+                                                <div><b><a href="connections.html#idOrAll" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:idOrAll</a></b></div>
+                                                <div><b><a href="connections.html#unsignedPlus-1" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:unsignedPlus-1</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -488,7 +554,7 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="boxIdNamespace1Attribute_Group" class="componentGroup" style="display:block">
-                                                <div><b><a href="connections.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterParam</a></b></div>
+                                                <div><b><a href="connections.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterParam</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -524,6 +590,82 @@
                            <table class="componentGroup">
                               <tbody>
                                  <tr>
+                                    <td class="componentGroup"><input id="button_Main_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('Main_schema');" class="control" /></td>
+                                    <td class="componentGroup">
+                                       <div class="componentGroupTitle">Main Schema</div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="componentGroup"></td>
+                                    <td class="componentGroup">
+                                       <div id="Main_schema" class="componentGroup" style="display:block">
+                                          <div><b><a href="connections.html#connections.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">connections.xsd</a></b></div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </td>
+                        <td class="rt_lineRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_cornerBottomLeft"></td>
+                        <td class="rt_lineBottom"></td>
+                        <td class="rt_cornerBottomRight"></td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="horizontalLayout">
+                  <table class="rt">
+                     <tr>
+                        <td class="rt_cornerTopLeft"></td>
+                        <td class="rt_lineTop"></td>
+                        <td class="rt_cornerTopRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_lineLeft"></td>
+                        <td class="rt_content">
+                           <table class="componentGroup">
+                              <tbody>
+                                 <tr>
+                                    <td class="componentGroup"><input id="button_Included_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('Included_schema');" class="control" /></td>
+                                    <td class="componentGroup">
+                                       <div class="componentGroupTitle">Included Schemas</div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="componentGroup"></td>
+                                    <td class="componentGroup">
+                                       <div id="Included_schema" class="componentGroup" style="display:block">
+                                          <div><b><a href="connections.html#parameter.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">parameter.xsd</a></b></div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </td>
+                        <td class="rt_lineRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_cornerBottomLeft"></td>
+                        <td class="rt_lineBottom"></td>
+                        <td class="rt_cornerBottomRight"></td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="horizontalLayout">
+                  <table class="rt">
+                     <tr>
+                        <td class="rt_cornerTopLeft"></td>
+                        <td class="rt_lineTop"></td>
+                        <td class="rt_cornerTopRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_lineLeft"></td>
+                        <td class="rt_content">
+                           <table class="componentGroup">
+                              <tbody>
+                                 <tr>
                                     <td class="componentGroup"><input id="button_Complex_Type" type="image" value="-" src="img/btM.gif" onclick="switchState('Complex_Type');" class="control" /></td>
                                     <td class="componentGroup">
                                        <div class="componentGroupTitle">Complex Types</div>
@@ -533,9 +675,9 @@
                                     <td class="componentGroup"></td>
                                     <td class="componentGroup">
                                        <div id="Complex_Type" class="componentGroup" style="display:block">
-                                          <div><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectFromType</a></b></div>
-                                          <div><b><a href="connections.html#connectToType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectToType</a></b></div>
-                                          <div><b><a href="connections.html#connectionsType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectionsType</a></b></div>
+                                          <div><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectFromType</a></b></div>
+                                          <div><b><a href="connections.html#connectToType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectToType</a></b></div>
+                                          <div><b><a href="connections.html#connectionsType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectionsType</a></b></div>
                                        </div>
                                     </td>
                                  </tr>
@@ -573,9 +715,9 @@
                                     <td class="componentGroup"></td>
                                     <td class="componentGroup">
                                        <div id="Simple_Type" class="componentGroup" style="display:block">
-                                          <div><b><a href="connections.html#all" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:all</a></b></div>
-                                          <div><b><a href="connections.html#idOrAll" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:idOrAll</a></b></div>
-                                          <div><b><a href="connections.html#unsignedPlus-1" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:unsignedPlus-1</a></b></div>
+                                          <div><b><a href="connections.html#all" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:all</a></b></div>
+                                          <div><b><a href="connections.html#idOrAll" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:idOrAll</a></b></div>
+                                          <div><b><a href="connections.html#unsignedPlus-1" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:unsignedPlus-1</a></b></div>
                                        </div>
                                     </td>
                                  </tr>
@@ -613,7 +755,7 @@
                                     <td class="componentGroup"></td>
                                     <td class="componentGroup">
                                        <div id="Attribute_Group" class="componentGroup" style="display:block">
-                                          <div><b><a href="connections.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterParam</a></b></div>
+                                          <div><b><a href="connections.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterParam</a></b></div>
                                        </div>
                                     </td>
                                  </tr>
@@ -650,6 +792,44 @@
                                  <table class="componentGroup">
                                     <tbody>
                                        <tr>
+                                          <td class="componentGroup"><input id="button_gr_connections.xsdMain_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_connections.xsdMain_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Main Schema</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="gr_connections.xsdMain_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="connections.html#connections.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">connections.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
                                           <td class="componentGroup"><input id="button_gr_connections.xsdComplex_Type" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_connections.xsdComplex_Type');" class="control" /></td>
                                           <td class="componentGroup">
                                              <div class="componentGroupTitle">Complex Types</div>
@@ -659,9 +839,9 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="gr_connections.xsdComplex_Type" class="componentGroup" style="display:block">
-                                                <div><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectFromType</a></b></div>
-                                                <div><b><a href="connections.html#connectToType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectToType</a></b></div>
-                                                <div><b><a href="connections.html#connectionsType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectionsType</a></b></div>
+                                                <div><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectFromType</a></b></div>
+                                                <div><b><a href="connections.html#connectToType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectToType</a></b></div>
+                                                <div><b><a href="connections.html#connectionsType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectionsType</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -699,9 +879,9 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="gr_connections.xsdSimple_Type" class="componentGroup" style="display:block">
-                                                <div><b><a href="connections.html#all" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:all</a></b></div>
-                                                <div><b><a href="connections.html#idOrAll" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:idOrAll</a></b></div>
-                                                <div><b><a href="connections.html#unsignedPlus-1" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:unsignedPlus-1</a></b></div>
+                                                <div><b><a href="connections.html#all" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:all</a></b></div>
+                                                <div><b><a href="connections.html#idOrAll" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:idOrAll</a></b></div>
+                                                <div><b><a href="connections.html#unsignedPlus-1" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:unsignedPlus-1</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -736,6 +916,44 @@
                                  <table class="componentGroup">
                                     <tbody>
                                        <tr>
+                                          <td class="componentGroup"><input id="button_gr_parameter.xsdIncluded_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_parameter.xsdIncluded_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Included Schemas</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="gr_parameter.xsdIncluded_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="connections.html#parameter.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">parameter.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
                                           <td class="componentGroup"><input id="button_gr_parameter.xsdAttribute_Group" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_parameter.xsdAttribute_Group');" class="control" /></td>
                                           <td class="componentGroup">
                                              <div class="componentGroupTitle">Attribute Groups</div>
@@ -745,7 +963,7 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="gr_parameter.xsdAttribute_Group" class="componentGroup" style="display:block">
-                                                <div><b><a href="connections.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterParam</a></b></div>
+                                                <div><b><a href="connections.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterParam</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -769,10 +987,10 @@
       </div>
       <p class="sHierarchyTitle">Resource hierarchy:</p>
       <ul class="schemaHierarchy">
-         <li>
+         <li class="internal">
             <p class="componentTitle"><input id="button_sHconnections.xsd" type="image" value="-" src="img/btM.gif" onclick="switchState('sHconnections.xsd');" class="control" /><a href="connections.html#connections.xsd" target="_self">connections.xsd</a></p>
             <div id="sHconnections.xsd" style="display:block">
-               <ul>
+               <ul class="internal">
                   <li class="schemaHierarchy">
                      <p><img src="img/HierarchyArrow12.jpg" /> <img src="img/Include12.gif" title="Included by 'connections.xsd'." /> <a href="connections.html#parameter.xsd" target="_self" title="Included by 'connections.xsd'.">parameter.xsd</a></p>
                   </li>
@@ -793,7 +1011,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -817,7 +1035,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/connections.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/connections.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -844,7 +1062,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -868,7 +1086,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/parameter.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/parameter.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -881,7 +1099,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectionsType_connection"></a><div class="componentTitle">Element <span class="qname"><b><a href="connections.html#connectionsType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectionsType</a></b> / connection</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectionsType_connection"></a><div class="componentTitle">Element <span class="qname"><b><a href="connections.html#connectionsType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectionsType</a></b> / connection</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -993,7 +1211,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/connections.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/connections.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1006,7 +1224,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectionsType_connectionsType_connection_from"></a><div class="componentTitle">Element <span class="qname"><b><a href="connections.html#connectionsType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectionsType</a></b> / <b><a href="connections.html#connectionsType_connection" target="_self" title="No namespace">connection</a></b> / from</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectionsType_connectionsType_connection_from"></a><div class="componentTitle">Element <span class="qname"><b><a href="connections.html#connectionsType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectionsType</a></b> / <b><a href="connections.html#connectionsType_connection" target="_self" title="No namespace">connection</a></b> / from</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1056,7 +1274,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectFromType</a></b></td>
+                        <td><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectFromType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -1152,7 +1370,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/connections.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/connections.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1165,7 +1383,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectFromType_id"></a><div class="componentTitle">Element <span class="qname"><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectFromType</a></b> / id</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectFromType_id"></a><div class="componentTitle">Element <span class="qname"><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectFromType</a></b> / id</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1187,21 +1405,21 @@
                            <div class="floatRight"><input id="button_diagram_connectFromType_id" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_connectFromType_id');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_connectFromType_id" style="display:block"><img alt="Diagram" border="0" src="img/connections_xsd_Element_id_1.jpeg" usemap="#connections_xsd_Element_id_1" /><map name="connections_xsd_Element_id_1" id="connections_xsd_Element_id_1">
+                           <div id="diagram_connectFromType_id" style="display:block"><img alt="Diagram" border="0" src="img/connections_xsd_Element_id.jpeg" usemap="#connections_xsd_Element_id" /><map name="connections_xsd_Element_id" id="connections_xsd_Element_id">
                                  <area alt="connections.tmp#idOrAll" href="connections.html#idOrAll" coords="242,2,365,28" />
                                  <area alt="connections.tmp#connectFromType_connectFromType_id_mode" href="connections.html#connectFromType_connectFromType_id_mode" coords="256,76,470,136" /></map></div>
                         </td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td>extension of <b><a href="connections.html#idOrAll" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:idOrAll</a></b></td>
+                        <td>extension of <b><a href="connections.html#idOrAll" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:idOrAll</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type hierarchy</b></td>
                         <td>
-                           <ul>
-                              <li><b>xs:anySimpleType</b><ul>
-                                    <li><b><a href="connections.html#idOrAll" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:idOrAll</a></b></li>
+                           <ul class="internal">
+                              <li class="internal"><b>xs:anySimpleType</b><ul class="internal">
+                                    <li class="internal"><b><a href="connections.html#idOrAll" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:idOrAll</a></b></li>
                                  </ul>
                               </li>
                            </ul>
@@ -1307,7 +1525,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/connections.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/connections.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1320,7 +1538,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectFromType_channel"></a><div class="componentTitle">Element <span class="qname"><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectFromType</a></b> / channel</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectFromType_channel"></a><div class="componentTitle">Element <span class="qname"><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectFromType</a></b> / channel</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1361,7 +1579,7 @@
                            <div class="floatRight"><input id="button_diagram_connectFromType_channel" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_connectFromType_channel');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_connectFromType_channel" style="display:block"><img alt="Diagram" border="0" src="img/connections_xsd_Element_channel_1.jpeg" usemap="#connections_xsd_Element_channel_1" /><map name="connections_xsd_Element_channel_1" id="connections_xsd_Element_channel_1">
+                           <div id="diagram_connectFromType_channel" style="display:block"><img alt="Diagram" border="0" src="img/connections_xsd_Element_channel.jpeg" usemap="#connections_xsd_Element_channel" /><map name="connections_xsd_Element_channel" id="connections_xsd_Element_channel">
                                  <area alt="connections.tmp#filterParam" href="connections.html#filterParam" coords="274,79,423,105" /></map></div>
                         </td>
                      </tr>
@@ -1442,7 +1660,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/connections.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/connections.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1455,7 +1673,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectionsType_connectionsType_connection_to"></a><div class="componentTitle">Element <span class="qname"><b><a href="connections.html#connectionsType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectionsType</a></b> / <b><a href="connections.html#connectionsType_connection" target="_self" title="No namespace">connection</a></b> / to</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectionsType_connectionsType_connection_to"></a><div class="componentTitle">Element <span class="qname"><b><a href="connections.html#connectionsType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectionsType</a></b> / <b><a href="connections.html#connectionsType_connection" target="_self" title="No namespace">connection</a></b> / to</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1504,7 +1722,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="connections.html#connectToType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectToType</a></b></td>
+                        <td><b><a href="connections.html#connectToType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectToType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -1600,7 +1818,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/connections.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/connections.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1613,7 +1831,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectToType_id"></a><div class="componentTitle">Element <span class="qname"><b><a href="connections.html#connectToType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectToType</a></b> / id</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectToType_id"></a><div class="componentTitle">Element <span class="qname"><b><a href="connections.html#connectToType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectToType</a></b> / id</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1635,7 +1853,7 @@
                            <div class="floatRight"><input id="button_diagram_connectToType_id" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_connectToType_id');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_connectToType_id" style="display:block"><img alt="Diagram" border="0" src="img/connections_xsd_Element_id.jpeg" /></div>
+                           <div id="diagram_connectToType_id" style="display:block"><img alt="Diagram" border="0" src="img/connections_xsd_Element_id_1.jpeg" /></div>
                         </td>
                      </tr>
                      <tr>
@@ -1676,7 +1894,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/connections.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/connections.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1689,7 +1907,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectToType_channel"></a><div class="componentTitle">Element <span class="qname"><b><a href="connections.html#connectToType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectToType</a></b> / channel</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectToType_channel"></a><div class="componentTitle">Element <span class="qname"><b><a href="connections.html#connectToType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectToType</a></b> / channel</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1731,21 +1949,21 @@
                            <div class="floatRight"><input id="button_diagram_connectToType_channel" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_connectToType_channel');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_connectToType_channel" style="display:block"><img alt="Diagram" border="0" src="img/connections_xsd_Element_channel.jpeg" usemap="#connections_xsd_Element_channel" /><map name="connections_xsd_Element_channel" id="connections_xsd_Element_channel">
+                           <div id="diagram_connectToType_channel" style="display:block"><img alt="Diagram" border="0" src="img/connections_xsd_Element_channel_1.jpeg" usemap="#connections_xsd_Element_channel_1" /><map name="connections_xsd_Element_channel_1" id="connections_xsd_Element_channel_1">
                                  <area alt="connections.tmp#unsignedPlus-1" href="connections.html#unsignedPlus-1" coords="292,2,465,28" />
                                  <area alt="connections.tmp#filterParam" href="connections.html#filterParam" coords="309,79,458,105" /></map></div>
                         </td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td>extension of <b><a href="connections.html#unsignedPlus-1" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:unsignedPlus-1</a></b></td>
+                        <td>extension of <b><a href="connections.html#unsignedPlus-1" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:unsignedPlus-1</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type hierarchy</b></td>
                         <td>
-                           <ul>
-                              <li><b>xs:int</b><ul>
-                                    <li><b><a href="connections.html#unsignedPlus-1" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:unsignedPlus-1</a></b></li>
+                           <ul class="internal">
+                              <li class="internal"><b>xs:int</b><ul class="internal">
+                                    <li class="internal"><b><a href="connections.html#unsignedPlus-1" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:unsignedPlus-1</a></b></li>
                                  </ul>
                               </li>
                            </ul>
@@ -1824,7 +2042,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/connections.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/connections.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1851,7 +2069,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -1911,7 +2129,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/connections.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/connections.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1938,7 +2156,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -2074,7 +2292,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/connections.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/connections.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2101,7 +2319,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -2115,7 +2333,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td>union of(<b><a href="connections.html#all" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:all</a></b>, <b>xs:IDREF</b>, <b>xs:string</b>)
+                        <td>union of(<b><a href="connections.html#all" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:all</a></b>, <b>xs:IDREF</b>, <b>xs:string</b>)
                         </td>
                      </tr>
                      <tr>
@@ -2157,7 +2375,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/connections.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/connections.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2184,7 +2402,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -2290,7 +2508,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/connections.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/connections.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2317,7 +2535,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -2388,7 +2606,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/connections.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/connections.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2415,7 +2633,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -2470,7 +2688,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/connections.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/connections.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2483,7 +2701,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectFromType_connectFromType_id_mode"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectFromType</a></b> / <b><a href="connections.html#connectFromType_id" target="_self" title="No namespace">id</a></b> / @mode</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="connectFromType_connectFromType_id_mode"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectFromType</a></b> / <b><a href="connections.html#connectFromType_id" target="_self" title="No namespace">id</a></b> / @mode</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2643,7 +2861,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/connections.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/connections.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2656,7 +2874,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filterParam_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="connections.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterParam</a></b> / @id</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filterParam_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="connections.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterParam</a></b> / @id</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2702,7 +2920,7 @@
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Attribute Group </td>
-                                    <td><b><a href="connections.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterParam</a></b></td>
+                                    <td><b><a href="connections.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterParam</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -2725,7 +2943,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/parameter.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/parameter.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2752,7 +2970,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -2778,7 +2996,7 @@
                                  </tr>
                                  <tr>
                                     <td class="firstColumn">Complex Types </td>
-                                    <td><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectFromType</a></b>, <b><a href="connections.html#connectToType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:connectToType</a></b></td>
+                                    <td><b><a href="connections.html#connectFromType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectFromType</a></b>, <b><a href="connections.html#connectToType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:connectToType</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -2831,7 +3049,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/parameter.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/parameter.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2850,7 +3068,7 @@
          <div align="center">XML Schema documentation generated by <a href="http://www.oxygenxml.com" target="_parent"><span class="oXygenLogo"><span class="redX">&lt;</span>o<span class="redX">X</span>ygen<span class="redX">/&gt;</span></span></a><sup>®</sup> XML Editor.
          </div>
       </div><script type="text/javascript">
-         <!--                     
+         <!--
                      // The namespace is the selected option in the TOC combo.
                     
                      // Floats the toolbar.
@@ -2878,5 +3096,5 @@
 	                     
 	                     globalControls.style.right='0';                       
                      }
-                --></script></body>
+                //--></script></body>
 </html>

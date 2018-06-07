@@ -38,11 +38,8 @@
 				'properties_stimulusType_id', 
 				'properties_xmlGeneratingPluginType_xmlGeneratingPluginType_script_source', 
 				'properties_xmlGeneratingPluginType_xmlGeneratingPluginType_parameter_name');
-
-        
-        var facetsBoxes= new Array('facets_xmlGeneratingPluginType_xmlGeneratingPluginType_script_source');
-
-        var usedByBoxes= new Array('usedBy_stimulusType', 
+var facetsBoxes= new Array('facets_xmlGeneratingPluginType_xmlGeneratingPluginType_script_source');
+var usedByBoxes= new Array('usedBy_stimulusType', 
 				'usedBy_datablocksType', 
 				'usedBy_datablocksSequentialType', 
 				'usedBy_datablockRefType', 
@@ -59,8 +56,7 @@
 				'usedBy_xmlGeneratingPluginType_xmlGeneratingPluginType_script_source', 
 				'usedBy_xmlGeneratingPluginType_xmlGeneratingPluginType_parameter_name', 
 				'usedBy_datablockGroup');
-
-        var sourceBoxes= new Array('source_stimuliType_fixed_parameters', 
+var sourceBoxes= new Array('source_stimuliType_fixed_parameters', 
 				'source_stimuliType_stimuliType_fixed_parameters_parameter', 
 				'source_stimuliType_stimulus', 
 				'source_stimulusType_description', 
@@ -99,8 +95,7 @@
 				'source_xmlGeneratingPluginType_xmlGeneratingPluginType_script_source', 
 				'source_xmlGeneratingPluginType_xmlGeneratingPluginType_parameter_name', 
 				'source_datablockGroup');
-
-        var instanceBoxes= new Array('instance_stimuliType_fixed_parameters', 
+var instanceBoxes= new Array('instance_stimuliType_fixed_parameters', 
 				'instance_stimuliType_stimulus', 
 				'instance_stimulusType_datablocks', 
 				'instance_datablocksType_sequential', 
@@ -111,8 +106,7 @@
 				'instance_stimulusType_fixedParameters', 
 				'instance_stimulusType_stimulusType_fixedParameters_parameter', 
 				'instance_stimuliType_pluginstimuli');
-
-        var diagramBoxes= new Array('diagram_stimuliType_fixed_parameters', 
+var diagramBoxes= new Array('diagram_stimuliType_fixed_parameters', 
 				'diagram_stimuliType_stimuliType_fixed_parameters_parameter', 
 				'diagram_stimuliType_stimulus', 
 				'diagram_stimulusType_description', 
@@ -142,8 +136,7 @@
 				'diagram_pluginStimuliType', 
 				'diagram_xmlGeneratingPluginType', 
 				'diagram_datablockGroup');
-
-        var annotationBoxes= new Array('annotations_stimuliType_fixed_parameters', 
+var annotationBoxes= new Array('annotations_stimuliType_fixed_parameters', 
 				'annotations_stimulusType_description', 
 				'annotations_stimulusType_datablocks', 
 				'annotations_datablocksType_sequential', 
@@ -151,8 +144,7 @@
 				'annotations_stimulusType_variableParameters', 
 				'annotations_stimulusType_fixedParameters', 
 				'annotations_datablocksType');
-
-        var attributesBoxes= new Array('attributes_stimuliType_stimuliType_fixed_parameters_parameter', 
+var attributesBoxes= new Array('attributes_stimuliType_stimuliType_fixed_parameters_parameter', 
 				'attributes_stimuliType_stimulus', 
 				'attributes_datablocksType_datablock', 
 				'attributes_datablockGroup_datablock', 
@@ -162,11 +154,7 @@
 				'attributes_xmlGeneratingPluginType_parameter', 
 				'attributes_stimulusType', 
 				'attributes_datablockRefType');
-
-        
-        
-        
-        var modelBoxes= new Array('model_stimuliType_fixed_parameters', 
+var modelBoxes= new Array('model_stimuliType_fixed_parameters', 
 				'model_stimuliType_stimulus', 
 				'model_stimulusType_datablocks', 
 				'model_datablocksType_sequential', 
@@ -186,6 +174,7 @@
 				'model_xmlGeneratingPluginType', 
 				'model_datablockGroup');
 
+      
         var button_prefix = 'button_';
         
         /**
@@ -414,7 +403,8 @@
          }
           
 
-    --></script></head>
+    
+                    //--></script></head>
    <body>
       <div id="global_controls" class="globalControls" style="position:absolute;right:0;">
          <table class="rt">
@@ -478,8 +468,84 @@
          <div class="level1" id="toc_group_by_namespace" style="display:block">
             <div>
                <div class="level2">
-                  <p><input id="button_boxIdNamespace1" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1');" class="control" /><span class="indexGroupTitle">http://med.kuleuven.be/exporl/apex/3.1.5/experiment</span></p>
+                  <p><input id="button_boxIdNamespace1" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1');" class="control" /><span class="indexGroupTitle">http://med.kuleuven.be/exporl/apex/4.0.0/experiment</span></p>
                   <div id="boxIdNamespace1" style="display:block">
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
+                                          <td class="componentGroup"><input id="button_boxIdNamespace1Main_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1Main_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Main Schema</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="boxIdNamespace1Main_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="stimuli.html#stimuli.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">stimuli.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
+                                          <td class="componentGroup"><input id="button_boxIdNamespace1Included_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1Included_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Included Schemas</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="boxIdNamespace1Included_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="stimuli.html#xmlgeneratingplugin.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">xmlgeneratingplugin.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
                      <div class="horizontalLayout">
                         <table class="rt">
                            <tr>
@@ -502,14 +568,14 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="boxIdNamespace1Complex_Type" class="componentGroup" style="display:block">
-                                                <div><b><a href="stimuli.html#datablockRefType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablockRefType</a></b></div>
-                                                <div><b><a href="stimuli.html#datablocksSequentialType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksSequentialType</a></b></div>
-                                                <div><b><a href="stimuli.html#datablocksSimultaneouslType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksSimultaneouslType</a></b></div>
-                                                <div><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksType</a></b></div>
-                                                <div><b><a href="stimuli.html#pluginStimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginStimuliType</a></b></div>
-                                                <div><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimuliType</a></b></div>
-                                                <div><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b></div>
-                                                <div><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b></div>
+                                                <div><b><a href="stimuli.html#datablockRefType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablockRefType</a></b></div>
+                                                <div><b><a href="stimuli.html#datablocksSequentialType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksSequentialType</a></b></div>
+                                                <div><b><a href="stimuli.html#datablocksSimultaneouslType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksSimultaneouslType</a></b></div>
+                                                <div><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksType</a></b></div>
+                                                <div><b><a href="stimuli.html#pluginStimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginStimuliType</a></b></div>
+                                                <div><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimuliType</a></b></div>
+                                                <div><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b></div>
+                                                <div><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -547,7 +613,7 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="boxIdNamespace1Element_Group" class="componentGroup" style="display:block">
-                                                <div><b><a href="stimuli.html#datablockGroup" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablockGroup</a></b></div>
+                                                <div><b><a href="stimuli.html#datablockGroup" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablockGroup</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -583,6 +649,82 @@
                            <table class="componentGroup">
                               <tbody>
                                  <tr>
+                                    <td class="componentGroup"><input id="button_Main_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('Main_schema');" class="control" /></td>
+                                    <td class="componentGroup">
+                                       <div class="componentGroupTitle">Main Schema</div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="componentGroup"></td>
+                                    <td class="componentGroup">
+                                       <div id="Main_schema" class="componentGroup" style="display:block">
+                                          <div><b><a href="stimuli.html#stimuli.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">stimuli.xsd</a></b></div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </td>
+                        <td class="rt_lineRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_cornerBottomLeft"></td>
+                        <td class="rt_lineBottom"></td>
+                        <td class="rt_cornerBottomRight"></td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="horizontalLayout">
+                  <table class="rt">
+                     <tr>
+                        <td class="rt_cornerTopLeft"></td>
+                        <td class="rt_lineTop"></td>
+                        <td class="rt_cornerTopRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_lineLeft"></td>
+                        <td class="rt_content">
+                           <table class="componentGroup">
+                              <tbody>
+                                 <tr>
+                                    <td class="componentGroup"><input id="button_Included_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('Included_schema');" class="control" /></td>
+                                    <td class="componentGroup">
+                                       <div class="componentGroupTitle">Included Schemas</div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="componentGroup"></td>
+                                    <td class="componentGroup">
+                                       <div id="Included_schema" class="componentGroup" style="display:block">
+                                          <div><b><a href="stimuli.html#xmlgeneratingplugin.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">xmlgeneratingplugin.xsd</a></b></div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </td>
+                        <td class="rt_lineRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_cornerBottomLeft"></td>
+                        <td class="rt_lineBottom"></td>
+                        <td class="rt_cornerBottomRight"></td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="horizontalLayout">
+                  <table class="rt">
+                     <tr>
+                        <td class="rt_cornerTopLeft"></td>
+                        <td class="rt_lineTop"></td>
+                        <td class="rt_cornerTopRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_lineLeft"></td>
+                        <td class="rt_content">
+                           <table class="componentGroup">
+                              <tbody>
+                                 <tr>
                                     <td class="componentGroup"><input id="button_Complex_Type" type="image" value="-" src="img/btM.gif" onclick="switchState('Complex_Type');" class="control" /></td>
                                     <td class="componentGroup">
                                        <div class="componentGroupTitle">Complex Types</div>
@@ -592,14 +734,14 @@
                                     <td class="componentGroup"></td>
                                     <td class="componentGroup">
                                        <div id="Complex_Type" class="componentGroup" style="display:block">
-                                          <div><b><a href="stimuli.html#datablockRefType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablockRefType</a></b></div>
-                                          <div><b><a href="stimuli.html#datablocksSequentialType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksSequentialType</a></b></div>
-                                          <div><b><a href="stimuli.html#datablocksSimultaneouslType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksSimultaneouslType</a></b></div>
-                                          <div><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksType</a></b></div>
-                                          <div><b><a href="stimuli.html#pluginStimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginStimuliType</a></b></div>
-                                          <div><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimuliType</a></b></div>
-                                          <div><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b></div>
-                                          <div><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b></div>
+                                          <div><b><a href="stimuli.html#datablockRefType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablockRefType</a></b></div>
+                                          <div><b><a href="stimuli.html#datablocksSequentialType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksSequentialType</a></b></div>
+                                          <div><b><a href="stimuli.html#datablocksSimultaneouslType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksSimultaneouslType</a></b></div>
+                                          <div><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksType</a></b></div>
+                                          <div><b><a href="stimuli.html#pluginStimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginStimuliType</a></b></div>
+                                          <div><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimuliType</a></b></div>
+                                          <div><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b></div>
+                                          <div><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b></div>
                                        </div>
                                     </td>
                                  </tr>
@@ -637,7 +779,7 @@
                                     <td class="componentGroup"></td>
                                     <td class="componentGroup">
                                        <div id="Element_Group" class="componentGroup" style="display:block">
-                                          <div><b><a href="stimuli.html#datablockGroup" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablockGroup</a></b></div>
+                                          <div><b><a href="stimuli.html#datablockGroup" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablockGroup</a></b></div>
                                        </div>
                                     </td>
                                  </tr>
@@ -674,6 +816,44 @@
                                  <table class="componentGroup">
                                     <tbody>
                                        <tr>
+                                          <td class="componentGroup"><input id="button_gr_stimuli.xsdMain_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_stimuli.xsdMain_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Main Schema</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="gr_stimuli.xsdMain_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="stimuli.html#stimuli.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">stimuli.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
                                           <td class="componentGroup"><input id="button_gr_stimuli.xsdComplex_Type" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_stimuli.xsdComplex_Type');" class="control" /></td>
                                           <td class="componentGroup">
                                              <div class="componentGroupTitle">Complex Types</div>
@@ -683,13 +863,13 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="gr_stimuli.xsdComplex_Type" class="componentGroup" style="display:block">
-                                                <div><b><a href="stimuli.html#datablockRefType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablockRefType</a></b></div>
-                                                <div><b><a href="stimuli.html#datablocksSequentialType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksSequentialType</a></b></div>
-                                                <div><b><a href="stimuli.html#datablocksSimultaneouslType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksSimultaneouslType</a></b></div>
-                                                <div><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksType</a></b></div>
-                                                <div><b><a href="stimuli.html#pluginStimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginStimuliType</a></b></div>
-                                                <div><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimuliType</a></b></div>
-                                                <div><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b></div>
+                                                <div><b><a href="stimuli.html#datablockRefType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablockRefType</a></b></div>
+                                                <div><b><a href="stimuli.html#datablocksSequentialType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksSequentialType</a></b></div>
+                                                <div><b><a href="stimuli.html#datablocksSimultaneouslType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksSimultaneouslType</a></b></div>
+                                                <div><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksType</a></b></div>
+                                                <div><b><a href="stimuli.html#pluginStimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginStimuliType</a></b></div>
+                                                <div><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimuliType</a></b></div>
+                                                <div><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -727,7 +907,7 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="gr_stimuli.xsdElement_Group" class="componentGroup" style="display:block">
-                                                <div><b><a href="stimuli.html#datablockGroup" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablockGroup</a></b></div>
+                                                <div><b><a href="stimuli.html#datablockGroup" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablockGroup</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -762,6 +942,44 @@
                                  <table class="componentGroup">
                                     <tbody>
                                        <tr>
+                                          <td class="componentGroup"><input id="button_gr_xmlgeneratingplugin.xsdIncluded_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_xmlgeneratingplugin.xsdIncluded_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Included Schemas</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="gr_xmlgeneratingplugin.xsdIncluded_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="stimuli.html#xmlgeneratingplugin.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">xmlgeneratingplugin.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
                                           <td class="componentGroup"><input id="button_gr_xmlgeneratingplugin.xsdComplex_Type" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_xmlgeneratingplugin.xsdComplex_Type');" class="control" /></td>
                                           <td class="componentGroup">
                                              <div class="componentGroupTitle">Complex Types</div>
@@ -771,7 +989,7 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="gr_xmlgeneratingplugin.xsdComplex_Type" class="componentGroup" style="display:block">
-                                                <div><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b></div>
+                                                <div><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -795,10 +1013,10 @@
       </div>
       <p class="sHierarchyTitle">Resource hierarchy:</p>
       <ul class="schemaHierarchy">
-         <li>
+         <li class="internal">
             <p class="componentTitle"><input id="button_sHstimuli.xsd" type="image" value="-" src="img/btM.gif" onclick="switchState('sHstimuli.xsd');" class="control" /><a href="stimuli.html#stimuli.xsd" target="_self">stimuli.xsd</a></p>
             <div id="sHstimuli.xsd" style="display:block">
-               <ul>
+               <ul class="internal">
                   <li class="schemaHierarchy">
                      <p><img src="img/HierarchyArrow12.jpg" /> <img src="img/Include12.gif" title="Included by 'stimuli.xsd'." /> <a href="stimuli.html#xmlgeneratingplugin.xsd" target="_self" title="Included by 'stimuli.xsd'.">xmlgeneratingplugin.xsd</a></p>
                   </li>
@@ -819,7 +1037,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -843,7 +1061,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -870,7 +1088,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -894,7 +1112,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -907,7 +1125,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimuliType_fixed_parameters"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimuliType</a></b> / fixed_parameters</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimuliType_fixed_parameters"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimuliType</a></b> / fixed_parameters</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1037,7 +1255,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1050,7 +1268,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimuliType_stimuliType_fixed_parameters_parameter"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimuliType</a></b> / <b><a href="stimuli.html#stimuliType_fixed_parameters" target="_self" title="No namespace">fixed_parameters</a></b> / parameter</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimuliType_stimuliType_fixed_parameters_parameter"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimuliType</a></b> / <b><a href="stimuli.html#stimuliType_fixed_parameters" target="_self" title="No namespace">fixed_parameters</a></b> / parameter</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1072,7 +1290,7 @@
                            <div class="floatRight"><input id="button_diagram_stimuliType_stimuliType_fixed_parameters_parameter" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_stimuliType_stimuliType_fixed_parameters_parameter');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_stimuliType_stimuliType_fixed_parameters_parameter" style="display:block"><img alt="Diagram" border="0" src="img/stimuli_xsd_Element_parameter_2.jpeg" usemap="#stimuli_xsd_Element_parameter_2" /><map name="stimuli_xsd_Element_parameter_2" id="stimuli_xsd_Element_parameter_2">
+                           <div id="diagram_stimuliType_stimuliType_fixed_parameters_parameter" style="display:block"><img alt="Diagram" border="0" src="img/stimuli_xsd_Element_parameter.jpeg" usemap="#stimuli_xsd_Element_parameter" /><map name="stimuli_xsd_Element_parameter" id="stimuli_xsd_Element_parameter">
                                  <area alt="stimuli.tmp#stimuliType_stimuliType_fixed_parameters_stimuliType_stimuliType_fixed_parameters_parameter_id" href="stimuli.html#stimuliType_stimuliType_fixed_parameters_stimuliType_stimuliType_fixed_parameters_parameter_id" coords="133,40,227,82" />
                                  <area alt="stimuli.tmp#stimuliType_stimuliType_fixed_parameters_stimuliType_stimuliType_fixed_parameters_parameter_useforresults" href="stimuli.html#stimuliType_stimuliType_fixed_parameters_stimuliType_stimuliType_fixed_parameters_parameter_useforresults" coords="133,92,274,152" /></map></div>
                         </td>
@@ -1162,7 +1380,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1175,7 +1393,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimuliType_stimulus"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimuliType</a></b> / stimulus</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimuliType_stimulus"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimuliType</a></b> / stimulus</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1208,7 +1426,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b></td>
+                        <td><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -1310,7 +1528,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1323,7 +1541,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_description"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b> / description</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_description"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b> / description</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1410,7 +1628,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1423,7 +1641,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_datablocks"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b> / datablocks</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_datablocks"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b> / datablocks</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1471,7 +1689,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksType</a></b></td>
+                        <td><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -1540,7 +1758,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1553,7 +1771,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablocksType_datablock"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksType</a></b> / datablock</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablocksType_datablock"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksType</a></b> / datablock</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1575,7 +1793,7 @@
                            <div class="floatRight"><input id="button_diagram_datablocksType_datablock" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_datablocksType_datablock');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_datablocksType_datablock" style="display:block"><img alt="Diagram" border="0" src="img/stimuli_xsd_Element_datablock_1.jpeg" usemap="#stimuli_xsd_Element_datablock_1" /><map name="stimuli_xsd_Element_datablock_1" id="stimuli_xsd_Element_datablock_1">
+                           <div id="diagram_datablocksType_datablock" style="display:block"><img alt="Diagram" border="0" src="img/stimuli_xsd_Element_datablock.jpeg" usemap="#stimuli_xsd_Element_datablock" /><map name="stimuli_xsd_Element_datablock" id="stimuli_xsd_Element_datablock">
                                  <area alt="stimuli.tmp#datablocksType_datablocksType_datablock_id" href="stimuli.html#datablocksType_datablocksType_datablock_id" coords="127,40,243,82" /></map></div>
                         </td>
                      </tr>
@@ -1645,7 +1863,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1658,7 +1876,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablocksType_sequential"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksType</a></b> / sequential</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablocksType_sequential"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksType</a></b> / sequential</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1709,7 +1927,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="stimuli.html#datablocksSequentialType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksSequentialType</a></b></td>
+                        <td><b><a href="stimuli.html#datablocksSequentialType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksSequentialType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -1779,7 +1997,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1792,7 +2010,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablockGroup_datablock"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#datablockGroup" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablockGroup</a></b> / datablock</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablockGroup_datablock"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#datablockGroup" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablockGroup</a></b> / datablock</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1814,14 +2032,14 @@
                            <div class="floatRight"><input id="button_diagram_datablockGroup_datablock" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_datablockGroup_datablock');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_datablockGroup_datablock" style="display:block"><img alt="Diagram" border="0" src="img/stimuli_xsd_Element_datablock.jpeg" usemap="#stimuli_xsd_Element_datablock" /><map name="stimuli_xsd_Element_datablock" id="stimuli_xsd_Element_datablock">
+                           <div id="diagram_datablockGroup_datablock" style="display:block"><img alt="Diagram" border="0" src="img/stimuli_xsd_Element_datablock_1.jpeg" usemap="#stimuli_xsd_Element_datablock_1" /><map name="stimuli_xsd_Element_datablock_1" id="stimuli_xsd_Element_datablock_1">
                                  <area alt="stimuli.tmp#datablockRefType_id" href="stimuli.html#datablockRefType_id" coords="252,78,366,120" />
                                  <area alt="stimuli.tmp#datablockRefType" href="stimuli.html#datablockRefType" coords="227,3,408,25" /></map></div>
                         </td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="stimuli.html#datablockRefType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablockRefType</a></b></td>
+                        <td><b><a href="stimuli.html#datablockRefType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablockRefType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -1888,7 +2106,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1901,7 +2119,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablockGroup_sequential"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#datablockGroup" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablockGroup</a></b> / sequential</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablockGroup_sequential"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#datablockGroup" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablockGroup</a></b> / sequential</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1933,7 +2151,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="stimuli.html#datablocksSequentialType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksSequentialType</a></b></td>
+                        <td><b><a href="stimuli.html#datablocksSequentialType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksSequentialType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -2003,7 +2221,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2016,7 +2234,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablockGroup_simultaneous"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#datablockGroup" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablockGroup</a></b> / simultaneous</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablockGroup_simultaneous"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#datablockGroup" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablockGroup</a></b> / simultaneous</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2048,7 +2266,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="stimuli.html#datablocksSimultaneouslType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksSimultaneouslType</a></b></td>
+                        <td><b><a href="stimuli.html#datablocksSimultaneouslType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksSimultaneouslType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -2118,7 +2336,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2131,7 +2349,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablocksType_simultaneous"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksType</a></b> / simultaneous</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablocksType_simultaneous"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksType</a></b> / simultaneous</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2183,7 +2401,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="stimuli.html#datablocksSimultaneouslType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksSimultaneouslType</a></b></td>
+                        <td><b><a href="stimuli.html#datablocksSimultaneouslType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksSimultaneouslType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -2253,7 +2471,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2266,7 +2484,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_variableParameters"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b> / variableParameters</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_variableParameters"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b> / variableParameters</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2393,7 +2611,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2406,7 +2624,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_stimulusType_variableParameters_parameter"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b> / <b><a href="stimuli.html#stimulusType_variableParameters" target="_self" title="No namespace">variableParameters</a></b> / parameter</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_stimulusType_variableParameters_parameter"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b> / <b><a href="stimuli.html#stimulusType_variableParameters" target="_self" title="No namespace">variableParameters</a></b> / parameter</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2428,7 +2646,7 @@
                            <div class="floatRight"><input id="button_diagram_stimulusType_stimulusType_variableParameters_parameter" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_stimulusType_stimulusType_variableParameters_parameter');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_stimulusType_stimulusType_variableParameters_parameter" style="display:block"><img alt="Diagram" border="0" src="img/stimuli_xsd_Element_parameter.jpeg" usemap="#stimuli_xsd_Element_parameter" /><map name="stimuli_xsd_Element_parameter" id="stimuli_xsd_Element_parameter">
+                           <div id="diagram_stimulusType_stimulusType_variableParameters_parameter" style="display:block"><img alt="Diagram" border="0" src="img/stimuli_xsd_Element_parameter_1.jpeg" usemap="#stimuli_xsd_Element_parameter_1" /><map name="stimuli_xsd_Element_parameter_1" id="stimuli_xsd_Element_parameter_1">
                                  <area alt="stimuli.tmp#stimulusType_stimulusType_variableParameters_stimulusType_stimulusType_variableParameters_parameter_id" href="stimuli.html#stimulusType_stimulusType_variableParameters_stimulusType_stimulusType_variableParameters_parameter_id" coords="238,76,352,118" /></map></div>
                         </td>
                      </tr>
@@ -2514,7 +2732,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2527,7 +2745,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_fixedParameters"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b> / fixedParameters</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_fixedParameters"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b> / fixedParameters</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2660,7 +2878,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2673,7 +2891,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_stimulusType_fixedParameters_parameter"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b> / <b><a href="stimuli.html#stimulusType_fixedParameters" target="_self" title="No namespace">fixedParameters</a></b> / parameter</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_stimulusType_fixedParameters_parameter"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b> / <b><a href="stimuli.html#stimulusType_fixedParameters" target="_self" title="No namespace">fixedParameters</a></b> / parameter</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2695,7 +2913,7 @@
                            <div class="floatRight"><input id="button_diagram_stimulusType_stimulusType_fixedParameters_parameter" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_stimulusType_stimulusType_fixedParameters_parameter');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_stimulusType_stimulusType_fixedParameters_parameter" style="display:block"><img alt="Diagram" border="0" src="img/stimuli_xsd_Element_parameter_1.jpeg" usemap="#stimuli_xsd_Element_parameter_1" /><map name="stimuli_xsd_Element_parameter_1" id="stimuli_xsd_Element_parameter_1">
+                           <div id="diagram_stimulusType_stimulusType_fixedParameters_parameter" style="display:block"><img alt="Diagram" border="0" src="img/stimuli_xsd_Element_parameter_2.jpeg" usemap="#stimuli_xsd_Element_parameter_2" /><map name="stimuli_xsd_Element_parameter_2" id="stimuli_xsd_Element_parameter_2">
                                  <area alt="stimuli.tmp#stimulusType_stimulusType_fixedParameters_stimulusType_stimulusType_fixedParameters_parameter_id" href="stimuli.html#stimulusType_stimulusType_fixedParameters_stimulusType_stimulusType_fixedParameters_parameter_id" coords="155,40,269,82" />
                                  <area alt="stimuli.tmp#stimulusType_stimulusType_fixedParameters_stimulusType_stimulusType_fixedParameters_parameter_b" href="stimuli.html#stimulusType_stimulusType_fixedParameters_stimulusType_stimulusType_fixedParameters_parameter_b" coords="234,99,350,141" />
                                  <area alt="stimuli.tmp#stimulusType_stimulusType_fixedParameters_stimulusType_stimulusType_fixedParameters_parameter_i" href="stimuli.html#stimulusType_stimulusType_fixedParameters_stimulusType_stimulusType_fixedParameters_parameter_i" coords="234,151,350,193" />
@@ -2819,7 +3037,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2832,7 +3050,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_stimulusType_fixedParameters_stimulusType_stimulusType_fixedParameters_parameter_b"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b> / <b><a href="stimuli.html#stimulusType_fixedParameters" target="_self" title="No namespace">fixedParameters</a></b> / <b><a href="stimuli.html#stimulusType_stimulusType_fixedParameters_parameter" target="_self" title="No namespace">parameter</a></b> / b</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_stimulusType_fixedParameters_stimulusType_stimulusType_fixedParameters_parameter_b"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b> / <b><a href="stimuli.html#stimulusType_fixedParameters" target="_self" title="No namespace">fixedParameters</a></b> / <b><a href="stimuli.html#stimulusType_stimulusType_fixedParameters_parameter" target="_self" title="No namespace">parameter</a></b> / b</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2902,7 +3120,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2915,7 +3133,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_stimulusType_fixedParameters_stimulusType_stimulusType_fixedParameters_parameter_i"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b> / <b><a href="stimuli.html#stimulusType_fixedParameters" target="_self" title="No namespace">fixedParameters</a></b> / <b><a href="stimuli.html#stimulusType_stimulusType_fixedParameters_parameter" target="_self" title="No namespace">parameter</a></b> / i</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_stimulusType_fixedParameters_stimulusType_stimulusType_fixedParameters_parameter_i"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b> / <b><a href="stimuli.html#stimulusType_fixedParameters" target="_self" title="No namespace">fixedParameters</a></b> / <b><a href="stimuli.html#stimulusType_stimulusType_fixedParameters_parameter" target="_self" title="No namespace">parameter</a></b> / i</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2985,7 +3203,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2998,7 +3216,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_stimulusType_fixedParameters_stimulusType_stimulusType_fixedParameters_parameter_u"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b> / <b><a href="stimuli.html#stimulusType_fixedParameters" target="_self" title="No namespace">fixedParameters</a></b> / <b><a href="stimuli.html#stimulusType_stimulusType_fixedParameters_parameter" target="_self" title="No namespace">parameter</a></b> / u</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_stimulusType_fixedParameters_stimulusType_stimulusType_fixedParameters_parameter_u"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b> / <b><a href="stimuli.html#stimulusType_fixedParameters" target="_self" title="No namespace">fixedParameters</a></b> / <b><a href="stimuli.html#stimulusType_stimulusType_fixedParameters_parameter" target="_self" title="No namespace">parameter</a></b> / u</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3068,7 +3286,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3081,7 +3299,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimuliType_pluginstimuli"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimuliType</a></b> / pluginstimuli</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimuliType_pluginstimuli"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimuliType</a></b> / pluginstimuli</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3112,14 +3330,14 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="stimuli.html#pluginStimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginStimuliType</a></b></td>
+                        <td><b><a href="stimuli.html#pluginStimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginStimuliType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type hierarchy</b></td>
                         <td>
-                           <ul>
-                              <li><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b><ul>
-                                    <li><b><a href="stimuli.html#pluginStimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginStimuliType</a></b></li>
+                           <ul class="internal">
+                              <li class="internal"><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b><ul class="internal">
+                                    <li class="internal"><b><a href="stimuli.html#pluginStimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginStimuliType</a></b></li>
                                  </ul>
                               </li>
                            </ul>
@@ -3195,7 +3413,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3208,7 +3426,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_script"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b> / script</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_script"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b> / script</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3321,7 +3539,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3334,7 +3552,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_parameter"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b> / parameter</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_parameter"></a><div class="componentTitle">Element <span class="qname"><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b> / parameter</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3445,7 +3663,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3472,7 +3690,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -3534,7 +3752,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3561,7 +3779,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -3706,7 +3924,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3733,7 +3951,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -3832,7 +4050,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3859,7 +4077,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -3921,7 +4139,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3948,7 +4166,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -4023,7 +4241,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4050,7 +4268,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -4112,7 +4330,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4139,7 +4357,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -4155,14 +4373,14 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td>extension of <b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b></td>
+                        <td>extension of <b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type hierarchy</b></td>
                         <td>
-                           <ul>
-                              <li><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b><ul>
-                                    <li><b><a href="stimuli.html#pluginStimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginStimuliType</a></b></li>
+                           <ul class="internal">
+                              <li class="internal"><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b><ul class="internal">
+                                    <li class="internal"><b><a href="stimuli.html#pluginStimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginStimuliType</a></b></li>
                                  </ul>
                               </li>
                            </ul>
@@ -4216,7 +4434,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4243,7 +4461,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -4266,7 +4484,7 @@
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Complex Type </td>
-                                    <td><b><a href="stimuli.html#pluginStimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginStimuliType</a></b></td>
+                                    <td><b><a href="stimuli.html#pluginStimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginStimuliType</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -4332,7 +4550,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4345,7 +4563,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimuliType_stimuliType_fixed_parameters_stimuliType_stimuliType_fixed_parameters_parameter_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimuliType</a></b> / <b><a href="stimuli.html#stimuliType_fixed_parameters" target="_self" title="No namespace">fixed_parameters</a></b> / <b><a href="stimuli.html#stimuliType_stimuliType_fixed_parameters_parameter" target="_self" title="No namespace">parameter</a></b> / @id</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimuliType_stimuliType_fixed_parameters_stimuliType_stimuliType_fixed_parameters_parameter_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimuliType</a></b> / <b><a href="stimuli.html#stimuliType_fixed_parameters" target="_self" title="No namespace">fixed_parameters</a></b> / <b><a href="stimuli.html#stimuliType_stimuliType_fixed_parameters_parameter" target="_self" title="No namespace">parameter</a></b> / @id</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -4414,7 +4632,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4427,7 +4645,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimuliType_stimuliType_fixed_parameters_stimuliType_stimuliType_fixed_parameters_parameter_useforresults"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimuliType</a></b> / <b><a href="stimuli.html#stimuliType_fixed_parameters" target="_self" title="No namespace">fixed_parameters</a></b> / <b><a href="stimuli.html#stimuliType_stimuliType_fixed_parameters_parameter" target="_self" title="No namespace">parameter</a></b> / @useforresults</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimuliType_stimuliType_fixed_parameters_stimuliType_stimuliType_fixed_parameters_parameter_useforresults"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#stimuliType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimuliType</a></b> / <b><a href="stimuli.html#stimuliType_fixed_parameters" target="_self" title="No namespace">fixed_parameters</a></b> / <b><a href="stimuli.html#stimuliType_stimuliType_fixed_parameters_parameter" target="_self" title="No namespace">parameter</a></b> / @useforresults</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -4500,7 +4718,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4513,7 +4731,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablocksType_datablocksType_datablock_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksType</a></b> / <b><a href="stimuli.html#datablocksType_datablock" target="_self" title="No namespace">datablock</a></b> / @id</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablocksType_datablocksType_datablock_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#datablocksType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksType</a></b> / <b><a href="stimuli.html#datablocksType_datablock" target="_self" title="No namespace">datablock</a></b> / @id</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -4583,7 +4801,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4596,7 +4814,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablockRefType_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#datablockRefType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablockRefType</a></b> / @id</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="datablockRefType_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#datablockRefType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablockRefType</a></b> / @id</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -4642,7 +4860,7 @@
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Complex Type </td>
-                                    <td><b><a href="stimuli.html#datablockRefType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablockRefType</a></b></td>
+                                    <td><b><a href="stimuli.html#datablockRefType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablockRefType</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -4665,7 +4883,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4678,7 +4896,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_stimulusType_variableParameters_stimulusType_stimulusType_variableParameters_parameter_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b> / <b><a href="stimuli.html#stimulusType_variableParameters" target="_self" title="No namespace">variableParameters</a></b> / <b><a href="stimuli.html#stimulusType_stimulusType_variableParameters_parameter" target="_self" title="No namespace">parameter</a></b> / @id</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_stimulusType_variableParameters_stimulusType_stimulusType_variableParameters_parameter_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b> / <b><a href="stimuli.html#stimulusType_variableParameters" target="_self" title="No namespace">variableParameters</a></b> / <b><a href="stimuli.html#stimulusType_stimulusType_variableParameters_parameter" target="_self" title="No namespace">parameter</a></b> / @id</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -4748,7 +4966,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4761,7 +4979,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_stimulusType_fixedParameters_stimulusType_stimulusType_fixedParameters_parameter_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b> / <b><a href="stimuli.html#stimulusType_fixedParameters" target="_self" title="No namespace">fixedParameters</a></b> / <b><a href="stimuli.html#stimulusType_stimulusType_fixedParameters_parameter" target="_self" title="No namespace">parameter</a></b> / @id</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_stimulusType_fixedParameters_stimulusType_stimulusType_fixedParameters_parameter_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b> / <b><a href="stimuli.html#stimulusType_fixedParameters" target="_self" title="No namespace">fixedParameters</a></b> / <b><a href="stimuli.html#stimulusType_stimulusType_fixedParameters_parameter" target="_self" title="No namespace">parameter</a></b> / @id</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -4830,7 +5048,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4843,7 +5061,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b> / @id</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="stimulusType_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b> / @id</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -4889,7 +5107,7 @@
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Complex Type </td>
-                                    <td><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:stimulusType</a></b></td>
+                                    <td><b><a href="stimuli.html#stimulusType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:stimulusType</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -4912,7 +5130,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4925,7 +5143,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_xmlGeneratingPluginType_script_source"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b> / <b><a href="stimuli.html#xmlGeneratingPluginType_script" target="_self" title="No namespace">script</a></b> / @source</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_xmlGeneratingPluginType_script_source"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b> / <b><a href="stimuli.html#xmlGeneratingPluginType_script" target="_self" title="No namespace">script</a></b> / @source</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -5030,7 +5248,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -5043,7 +5261,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_xmlGeneratingPluginType_parameter_name"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:xmlGeneratingPluginType</a></b> / <b><a href="stimuli.html#xmlGeneratingPluginType_parameter" target="_self" title="No namespace">parameter</a></b> / @name</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="xmlGeneratingPluginType_xmlGeneratingPluginType_parameter_name"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="stimuli.html#xmlGeneratingPluginType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:xmlGeneratingPluginType</a></b> / <b><a href="stimuli.html#xmlGeneratingPluginType_parameter" target="_self" title="No namespace">parameter</a></b> / @name</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -5112,7 +5330,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/xmlgeneratingplugin.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -5139,7 +5357,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -5163,7 +5381,7 @@
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Complex Types </td>
-                                    <td><b><a href="stimuli.html#datablocksSequentialType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksSequentialType</a></b>, <b><a href="stimuli.html#datablocksSimultaneouslType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:datablocksSimultaneouslType</a></b></td>
+                                    <td><b><a href="stimuli.html#datablocksSequentialType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksSequentialType</a></b>, <b><a href="stimuli.html#datablocksSimultaneouslType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:datablocksSimultaneouslType</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -5206,7 +5424,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/stimuli.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/stimuli.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -5225,7 +5443,7 @@
          <div align="center">XML Schema documentation generated by <a href="http://www.oxygenxml.com" target="_parent"><span class="oXygenLogo"><span class="redX">&lt;</span>o<span class="redX">X</span>ygen<span class="redX">/&gt;</span></span></a><sup>®</sup> XML Editor.
          </div>
       </div><script type="text/javascript">
-         <!--                     
+         <!--
                      // The namespace is the selected option in the TOC combo.
                     
                      // Floats the toolbar.
@@ -5253,5 +5471,5 @@
 	                     
 	                     globalControls.style.right='0';                       
                      }
-                --></script></body>
+                //--></script></body>
 </html>

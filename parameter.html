@@ -8,24 +8,13 @@
          <!--
         var propertiesBoxes= new Array('properties_parameter.xsd', 
 				'properties_filterParam_id');
-
-        
-        
-        var usedByBoxes= new Array('usedBy_filterParam_id');
-
-        var sourceBoxes= new Array('source_filterParam_id', 
+var usedByBoxes= new Array('usedBy_filterParam_id');
+var sourceBoxes= new Array('source_filterParam_id', 
 				'source_filterParam');
+var diagramBoxes= new Array('diagram_filterParam');
+var attributesBoxes= new Array('attributes_filterParam');
 
-        
-        var diagramBoxes= new Array('diagram_filterParam');
-
-        
-        var attributesBoxes= new Array('attributes_filterParam');
-
-        
-        
-        
-        
+      
         var button_prefix = 'button_';
         
         /**
@@ -254,7 +243,8 @@
          }
           
 
-    --></script></head>
+    
+                    //--></script></head>
    <body>
       <div id="global_controls" class="globalControls" style="position:absolute;right:0;">
          <table class="rt">
@@ -306,8 +296,46 @@
          <div class="level1" id="toc_group_by_namespace" style="display:block">
             <div>
                <div class="level2">
-                  <p><input id="button_boxIdNamespace1" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1');" class="control" /><span class="indexGroupTitle">http://med.kuleuven.be/exporl/apex/3.1.5/experiment</span></p>
+                  <p><input id="button_boxIdNamespace1" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1');" class="control" /><span class="indexGroupTitle">http://med.kuleuven.be/exporl/apex/4.0.0/experiment</span></p>
                   <div id="boxIdNamespace1" style="display:block">
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
+                                          <td class="componentGroup"><input id="button_boxIdNamespace1Main_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1Main_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Main Schema</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="boxIdNamespace1Main_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="parameter.html#parameter.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">parameter.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
                      <div class="horizontalLayout">
                         <table class="rt">
                            <tr>
@@ -330,7 +358,7 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="boxIdNamespace1Attribute_Group" class="componentGroup" style="display:block">
-                                                <div><b><a href="parameter.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterParam</a></b></div>
+                                                <div><b><a href="parameter.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterParam</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -366,6 +394,44 @@
                            <table class="componentGroup">
                               <tbody>
                                  <tr>
+                                    <td class="componentGroup"><input id="button_Main_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('Main_schema');" class="control" /></td>
+                                    <td class="componentGroup">
+                                       <div class="componentGroupTitle">Main Schema</div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="componentGroup"></td>
+                                    <td class="componentGroup">
+                                       <div id="Main_schema" class="componentGroup" style="display:block">
+                                          <div><b><a href="parameter.html#parameter.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">parameter.xsd</a></b></div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </td>
+                        <td class="rt_lineRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_cornerBottomLeft"></td>
+                        <td class="rt_lineBottom"></td>
+                        <td class="rt_cornerBottomRight"></td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="horizontalLayout">
+                  <table class="rt">
+                     <tr>
+                        <td class="rt_cornerTopLeft"></td>
+                        <td class="rt_lineTop"></td>
+                        <td class="rt_cornerTopRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_lineLeft"></td>
+                        <td class="rt_content">
+                           <table class="componentGroup">
+                              <tbody>
+                                 <tr>
                                     <td class="componentGroup"><input id="button_Attribute_Group" type="image" value="-" src="img/btM.gif" onclick="switchState('Attribute_Group');" class="control" /></td>
                                     <td class="componentGroup">
                                        <div class="componentGroupTitle">Attribute Groups</div>
@@ -375,7 +441,7 @@
                                     <td class="componentGroup"></td>
                                     <td class="componentGroup">
                                        <div id="Attribute_Group" class="componentGroup" style="display:block">
-                                          <div><b><a href="parameter.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterParam</a></b></div>
+                                          <div><b><a href="parameter.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterParam</a></b></div>
                                        </div>
                                     </td>
                                  </tr>
@@ -412,6 +478,44 @@
                                  <table class="componentGroup">
                                     <tbody>
                                        <tr>
+                                          <td class="componentGroup"><input id="button_gr_parameter.xsdMain_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_parameter.xsdMain_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Main Schema</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="gr_parameter.xsdMain_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="parameter.html#parameter.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">parameter.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
                                           <td class="componentGroup"><input id="button_gr_parameter.xsdAttribute_Group" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_parameter.xsdAttribute_Group');" class="control" /></td>
                                           <td class="componentGroup">
                                              <div class="componentGroupTitle">Attribute Groups</div>
@@ -421,7 +525,7 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="gr_parameter.xsdAttribute_Group" class="componentGroup" style="display:block">
-                                                <div><b><a href="parameter.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterParam</a></b></div>
+                                                <div><b><a href="parameter.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterParam</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -456,7 +560,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -480,7 +584,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/parameter.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/parameter.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -493,7 +597,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filterParam_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="parameter.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterParam</a></b> / @id</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filterParam_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="parameter.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterParam</a></b> / @id</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -539,7 +643,7 @@
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Attribute Group </td>
-                                    <td><b><a href="parameter.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterParam</a></b></td>
+                                    <td><b><a href="parameter.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterParam</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -562,7 +666,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/parameter.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/parameter.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -589,7 +693,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -648,7 +752,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/parameter.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/parameter.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -667,7 +771,7 @@
          <div align="center">XML Schema documentation generated by <a href="http://www.oxygenxml.com" target="_parent"><span class="oXygenLogo"><span class="redX">&lt;</span>o<span class="redX">X</span>ygen<span class="redX">/&gt;</span></span></a><sup>®</sup> XML Editor.
          </div>
       </div><script type="text/javascript">
-         <!--                     
+         <!--
                      // The namespace is the selected option in the TOC combo.
                     
                      // Floats the toolbar.
@@ -695,5 +799,5 @@
 	                     
 	                     globalControls.style.right='0';                       
                      }
-                --></script></body>
+                //--></script></body>
 </html>

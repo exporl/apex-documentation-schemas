@@ -44,14 +44,11 @@
 				'properties_channelGainType_channel', 
 				'properties_pluginfilter_pluginfilter_parameter_name', 
 				'properties_pluginfilter_pluginfilter_parameter_channel');
-
-        
-        var facetsBoxes= new Array('facets_generator_type', 
+var facetsBoxes= new Array('facets_generator_type', 
 				'facets_generator_polarity', 
 				'facets_fader_type', 
 				'facets_fader_direction');
-
-        var usedByBoxes= new Array('usedBy_filterType', 
+var usedByBoxes= new Array('usedBy_filterType', 
 				'usedBy_channelGainType', 
 				'usedBy_gainparam', 
 				'usedBy_filterType_id', 
@@ -60,8 +57,7 @@
 				'usedBy_pluginfilter_pluginfilter_parameter_name', 
 				'usedBy_pluginfilter_pluginfilter_parameter_channel', 
 				'usedBy_filterParam');
-
-        var sourceBoxes= new Array('source_filtersType_filter', 
+var sourceBoxes= new Array('source_filtersType_filter', 
 				'source_filterType_device', 
 				'source_filterType_channels', 
 				'source_filterType_continuous', 
@@ -108,10 +104,8 @@
 				'source_pluginfilter_pluginfilter_parameter_name', 
 				'source_pluginfilter_pluginfilter_parameter_channel', 
 				'source_filterParam');
-
-        var instanceBoxes= new Array('instance_filtersType_filter');
-
-        var diagramBoxes= new Array('diagram_filtersType_filter', 
+var instanceBoxes= new Array('instance_filtersType_filter');
+var diagramBoxes= new Array('diagram_filtersType_filter', 
 				'diagram_filterType_device', 
 				'diagram_filterType_channels', 
 				'diagram_filterType_continuous', 
@@ -153,8 +147,7 @@
 				'diagram_hrtffiltersum', 
 				'diagram_pluginfilter', 
 				'diagram_filterParam');
-
-        var annotationBoxes= new Array('annotations_filtersType_filter', 
+var annotationBoxes= new Array('annotations_filtersType_filter', 
 				'annotations_filterType_device', 
 				'annotations_filterType_channels', 
 				'annotations_filterType_continuous', 
@@ -178,8 +171,7 @@
 				'annotations_dataloop', 
 				'annotations_pluginfilter', 
 				'annotations_channelGainType_channel');
-
-        var attributesBoxes= new Array('attributes_filtersType_filter', 
+var attributesBoxes= new Array('attributes_filtersType_filter', 
 				'attributes_generator_gain', 
 				'attributes_generator_frequency', 
 				'attributes_generator_phase', 
@@ -203,11 +195,7 @@
 				'attributes_hrtffiltersum', 
 				'attributes_pluginfilter', 
 				'attributes_filterParam');
-
-        
-        
-        
-        var modelBoxes= new Array('model_filtersType_filter', 
+var modelBoxes= new Array('model_filtersType_filter', 
 				'model_filtersType', 
 				'model_filterType', 
 				'model_generator', 
@@ -217,6 +205,7 @@
 				'model_hrtffiltersum', 
 				'model_pluginfilter');
 
+      
         var button_prefix = 'button_';
         
         /**
@@ -445,7 +434,8 @@
          }
           
 
-    --></script></head>
+    
+                    //--></script></head>
    <body>
       <div id="global_controls" class="globalControls" style="position:absolute;right:0;">
          <table class="rt">
@@ -509,8 +499,84 @@
          <div class="level1" id="toc_group_by_namespace" style="display:block">
             <div>
                <div class="level2">
-                  <p><input id="button_boxIdNamespace1" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1');" class="control" /><span class="indexGroupTitle">http://med.kuleuven.be/exporl/apex/3.1.5/experiment</span></p>
+                  <p><input id="button_boxIdNamespace1" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1');" class="control" /><span class="indexGroupTitle">http://med.kuleuven.be/exporl/apex/4.0.0/experiment</span></p>
                   <div id="boxIdNamespace1" style="display:block">
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
+                                          <td class="componentGroup"><input id="button_boxIdNamespace1Main_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1Main_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Main Schema</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="boxIdNamespace1Main_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="filters.html#filters.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">filters.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
+                                          <td class="componentGroup"><input id="button_boxIdNamespace1Included_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1Included_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Included Schemas</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="boxIdNamespace1Included_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="filters.html#parameter.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">parameter.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
                      <div class="horizontalLayout">
                         <table class="rt">
                            <tr>
@@ -533,16 +599,16 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="boxIdNamespace1Complex_Type" class="componentGroup" style="display:block">
-                                                <div><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:amplifier</a></b></div>
-                                                <div><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:channelGainType</a></b></div>
-                                                <div><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:dataloop</a></b></div>
-                                                <div><b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:fader</a></b></div>
-                                                <div><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b></div>
-                                                <div><b><a href="filters.html#filtersType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filtersType</a></b></div>
-                                                <div><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:gainparam</a></b></div>
-                                                <div><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:generator</a></b></div>
-                                                <div><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:hrtffiltersum</a></b></div>
-                                                <div><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginfilter</a></b></div>
+                                                <div><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:amplifier</a></b></div>
+                                                <div><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:channelGainType</a></b></div>
+                                                <div><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:dataloop</a></b></div>
+                                                <div><b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:fader</a></b></div>
+                                                <div><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b></div>
+                                                <div><b><a href="filters.html#filtersType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filtersType</a></b></div>
+                                                <div><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:gainparam</a></b></div>
+                                                <div><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:generator</a></b></div>
+                                                <div><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:hrtffiltersum</a></b></div>
+                                                <div><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginfilter</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -580,7 +646,7 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="boxIdNamespace1Attribute_Group" class="componentGroup" style="display:block">
-                                                <div><b><a href="filters.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterParam</a></b></div>
+                                                <div><b><a href="filters.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterParam</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -616,6 +682,82 @@
                            <table class="componentGroup">
                               <tbody>
                                  <tr>
+                                    <td class="componentGroup"><input id="button_Main_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('Main_schema');" class="control" /></td>
+                                    <td class="componentGroup">
+                                       <div class="componentGroupTitle">Main Schema</div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="componentGroup"></td>
+                                    <td class="componentGroup">
+                                       <div id="Main_schema" class="componentGroup" style="display:block">
+                                          <div><b><a href="filters.html#filters.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">filters.xsd</a></b></div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </td>
+                        <td class="rt_lineRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_cornerBottomLeft"></td>
+                        <td class="rt_lineBottom"></td>
+                        <td class="rt_cornerBottomRight"></td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="horizontalLayout">
+                  <table class="rt">
+                     <tr>
+                        <td class="rt_cornerTopLeft"></td>
+                        <td class="rt_lineTop"></td>
+                        <td class="rt_cornerTopRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_lineLeft"></td>
+                        <td class="rt_content">
+                           <table class="componentGroup">
+                              <tbody>
+                                 <tr>
+                                    <td class="componentGroup"><input id="button_Included_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('Included_schema');" class="control" /></td>
+                                    <td class="componentGroup">
+                                       <div class="componentGroupTitle">Included Schemas</div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="componentGroup"></td>
+                                    <td class="componentGroup">
+                                       <div id="Included_schema" class="componentGroup" style="display:block">
+                                          <div><b><a href="filters.html#parameter.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">parameter.xsd</a></b></div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </td>
+                        <td class="rt_lineRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_cornerBottomLeft"></td>
+                        <td class="rt_lineBottom"></td>
+                        <td class="rt_cornerBottomRight"></td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="horizontalLayout">
+                  <table class="rt">
+                     <tr>
+                        <td class="rt_cornerTopLeft"></td>
+                        <td class="rt_lineTop"></td>
+                        <td class="rt_cornerTopRight"></td>
+                     </tr>
+                     <tr>
+                        <td class="rt_lineLeft"></td>
+                        <td class="rt_content">
+                           <table class="componentGroup">
+                              <tbody>
+                                 <tr>
                                     <td class="componentGroup"><input id="button_Complex_Type" type="image" value="-" src="img/btM.gif" onclick="switchState('Complex_Type');" class="control" /></td>
                                     <td class="componentGroup">
                                        <div class="componentGroupTitle">Complex Types</div>
@@ -625,16 +767,16 @@
                                     <td class="componentGroup"></td>
                                     <td class="componentGroup">
                                        <div id="Complex_Type" class="componentGroup" style="display:block">
-                                          <div><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:amplifier</a></b></div>
-                                          <div><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:channelGainType</a></b></div>
-                                          <div><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:dataloop</a></b></div>
-                                          <div><b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:fader</a></b></div>
-                                          <div><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b></div>
-                                          <div><b><a href="filters.html#filtersType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filtersType</a></b></div>
-                                          <div><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:gainparam</a></b></div>
-                                          <div><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:generator</a></b></div>
-                                          <div><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:hrtffiltersum</a></b></div>
-                                          <div><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginfilter</a></b></div>
+                                          <div><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:amplifier</a></b></div>
+                                          <div><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:channelGainType</a></b></div>
+                                          <div><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:dataloop</a></b></div>
+                                          <div><b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:fader</a></b></div>
+                                          <div><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b></div>
+                                          <div><b><a href="filters.html#filtersType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filtersType</a></b></div>
+                                          <div><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:gainparam</a></b></div>
+                                          <div><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:generator</a></b></div>
+                                          <div><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:hrtffiltersum</a></b></div>
+                                          <div><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginfilter</a></b></div>
                                        </div>
                                     </td>
                                  </tr>
@@ -672,7 +814,7 @@
                                     <td class="componentGroup"></td>
                                     <td class="componentGroup">
                                        <div id="Attribute_Group" class="componentGroup" style="display:block">
-                                          <div><b><a href="filters.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterParam</a></b></div>
+                                          <div><b><a href="filters.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterParam</a></b></div>
                                        </div>
                                     </td>
                                  </tr>
@@ -709,6 +851,44 @@
                                  <table class="componentGroup">
                                     <tbody>
                                        <tr>
+                                          <td class="componentGroup"><input id="button_gr_filters.xsdMain_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_filters.xsdMain_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Main Schema</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="gr_filters.xsdMain_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="filters.html#filters.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">filters.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
                                           <td class="componentGroup"><input id="button_gr_filters.xsdComplex_Type" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_filters.xsdComplex_Type');" class="control" /></td>
                                           <td class="componentGroup">
                                              <div class="componentGroupTitle">Complex Types</div>
@@ -718,16 +898,16 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="gr_filters.xsdComplex_Type" class="componentGroup" style="display:block">
-                                                <div><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:amplifier</a></b></div>
-                                                <div><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:channelGainType</a></b></div>
-                                                <div><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:dataloop</a></b></div>
-                                                <div><b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:fader</a></b></div>
-                                                <div><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b></div>
-                                                <div><b><a href="filters.html#filtersType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filtersType</a></b></div>
-                                                <div><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:gainparam</a></b></div>
-                                                <div><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:generator</a></b></div>
-                                                <div><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:hrtffiltersum</a></b></div>
-                                                <div><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginfilter</a></b></div>
+                                                <div><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:amplifier</a></b></div>
+                                                <div><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:channelGainType</a></b></div>
+                                                <div><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:dataloop</a></b></div>
+                                                <div><b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:fader</a></b></div>
+                                                <div><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b></div>
+                                                <div><b><a href="filters.html#filtersType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filtersType</a></b></div>
+                                                <div><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:gainparam</a></b></div>
+                                                <div><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:generator</a></b></div>
+                                                <div><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:hrtffiltersum</a></b></div>
+                                                <div><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginfilter</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -762,6 +942,44 @@
                                  <table class="componentGroup">
                                     <tbody>
                                        <tr>
+                                          <td class="componentGroup"><input id="button_gr_parameter.xsdIncluded_schema" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_parameter.xsdIncluded_schema');" class="control" /></td>
+                                          <td class="componentGroup">
+                                             <div class="componentGroupTitle">Included Schemas</div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="componentGroup"></td>
+                                          <td class="componentGroup">
+                                             <div id="gr_parameter.xsdIncluded_schema" class="componentGroup" style="display:block">
+                                                <div><b><a href="filters.html#parameter.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">parameter.xsd</a></b></div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                              <td class="rt_lineRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_cornerBottomLeft"></td>
+                              <td class="rt_lineBottom"></td>
+                              <td class="rt_cornerBottomRight"></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="horizontalLayout">
+                        <table class="rt">
+                           <tr>
+                              <td class="rt_cornerTopLeft"></td>
+                              <td class="rt_lineTop"></td>
+                              <td class="rt_cornerTopRight"></td>
+                           </tr>
+                           <tr>
+                              <td class="rt_lineLeft"></td>
+                              <td class="rt_content">
+                                 <table class="componentGroup">
+                                    <tbody>
+                                       <tr>
                                           <td class="componentGroup"><input id="button_gr_parameter.xsdAttribute_Group" type="image" value="-" src="img/btM.gif" onclick="switchState('gr_parameter.xsdAttribute_Group');" class="control" /></td>
                                           <td class="componentGroup">
                                              <div class="componentGroupTitle">Attribute Groups</div>
@@ -771,7 +989,7 @@
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="gr_parameter.xsdAttribute_Group" class="componentGroup" style="display:block">
-                                                <div><b><a href="filters.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterParam</a></b></div>
+                                                <div><b><a href="filters.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterParam</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -795,10 +1013,10 @@
       </div>
       <p class="sHierarchyTitle">Resource hierarchy:</p>
       <ul class="schemaHierarchy">
-         <li>
+         <li class="internal">
             <p class="componentTitle"><input id="button_sHfilters.xsd" type="image" value="-" src="img/btM.gif" onclick="switchState('sHfilters.xsd');" class="control" /><a href="filters.html#filters.xsd" target="_self">filters.xsd</a></p>
             <div id="sHfilters.xsd" style="display:block">
-               <ul>
+               <ul class="internal">
                   <li class="schemaHierarchy">
                      <p><img src="img/HierarchyArrow12.jpg" /> <img src="img/Include12.gif" title="Included by 'filters.xsd'." /> <a href="filters.html#parameter.xsd" target="_self" title="Included by 'filters.xsd'.">parameter.xsd</a></p>
                   </li>
@@ -819,7 +1037,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -843,7 +1061,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -870,7 +1088,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -894,7 +1112,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/parameter.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/parameter.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -907,7 +1125,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filtersType_filter"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#filtersType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filtersType</a></b> / filter</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filtersType_filter"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#filtersType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filtersType</a></b> / filter</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -958,7 +1176,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b></td>
+                        <td><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -1063,7 +1281,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1076,7 +1294,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filterType_device"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b> / device</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filterType_device"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b> / device</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1160,7 +1378,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1173,7 +1391,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filterType_channels"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b> / channels</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filterType_channels"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b> / channels</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1256,7 +1474,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1269,7 +1487,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filterType_continuous"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b> / continuous</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filterType_continuous"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b> / continuous</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1359,7 +1577,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1372,7 +1590,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_type"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:generator</a></b> / type</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_type"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:generator</a></b> / type</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1394,7 +1612,7 @@
                            <div class="floatRight"><input id="button_diagram_generator_type" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_generator_type');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_generator_type" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_type_1.jpeg" /></div>
+                           <div id="diagram_generator_type" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_type.jpeg" /></div>
                         </td>
                      </tr>
                      <tr>
@@ -1521,7 +1739,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1534,7 +1752,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_basegain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:generator</a></b> / basegain</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_basegain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:generator</a></b> / basegain</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1575,7 +1793,7 @@
                            <div class="floatRight"><input id="button_diagram_generator_basegain" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_generator_basegain');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_generator_basegain" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_basegain_1.jpeg" /></div>
+                           <div id="diagram_generator_basegain" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_basegain.jpeg" /></div>
                         </td>
                      </tr>
                      <tr>
@@ -1627,7 +1845,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1640,7 +1858,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_invertgain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:generator</a></b> / invertgain</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_invertgain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:generator</a></b> / invertgain</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1681,7 +1899,7 @@
                            <div class="floatRight"><input id="button_diagram_generator_invertgain" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_generator_invertgain');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_generator_invertgain" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_invertgain_2.jpeg" /></div>
+                           <div id="diagram_generator_invertgain" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_invertgain.jpeg" /></div>
                         </td>
                      </tr>
                      <tr>
@@ -1733,7 +1951,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1746,7 +1964,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_gain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:generator</a></b> / gain</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_gain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:generator</a></b> / gain</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1786,14 +2004,14 @@
                            <div class="floatRight"><input id="button_diagram_generator_gain" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_generator_gain');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_generator_gain" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_gain_2.jpeg" usemap="#filters_xsd_Element_gain_2" /><map name="filters_xsd_Element_gain_2" id="filters_xsd_Element_gain_2">
+                           <div id="diagram_generator_gain" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_gain.jpeg" usemap="#filters_xsd_Element_gain" /><map name="filters_xsd_Element_gain" id="filters_xsd_Element_gain">
                                  <area alt="filters.tmp#filterParam" href="filters.html#filterParam" coords="230,135,379,161" />
                                  <area alt="filters.tmp#gainparam" href="filters.html#gainparam" coords="202,3,352,43" /></map></div>
                         </td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:gainparam</a></b></td>
+                        <td><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:gainparam</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -1864,7 +2082,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1877,7 +2095,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_frequency"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:generator</a></b> / frequency</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_frequency"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:generator</a></b> / frequency</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2001,7 +2219,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2014,7 +2232,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_phase"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:generator</a></b> / phase</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_phase"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:generator</a></b> / phase</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2138,7 +2356,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2151,7 +2369,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_pulsewidth"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:generator</a></b> / pulsewidth</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_pulsewidth"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:generator</a></b> / pulsewidth</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2242,7 +2460,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2255,7 +2473,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_polarity"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:generator</a></b> / polarity</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="generator_polarity"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:generator</a></b> / polarity</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2358,7 +2576,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2371,7 +2589,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="amplifier_basegain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:amplifier</a></b> / basegain</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="amplifier_basegain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:amplifier</a></b> / basegain</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2412,14 +2630,14 @@
                            <div class="floatRight"><input id="button_diagram_amplifier_basegain" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_amplifier_basegain');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_amplifier_basegain" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_basegain.jpeg" usemap="#filters_xsd_Element_basegain" /><map name="filters_xsd_Element_basegain" id="filters_xsd_Element_basegain">
+                           <div id="diagram_amplifier_basegain" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_basegain_1.jpeg" usemap="#filters_xsd_Element_basegain_1" /><map name="filters_xsd_Element_basegain_1" id="filters_xsd_Element_basegain_1">
                                  <area alt="filters.tmp#filterParam" href="filters.html#filterParam" coords="230,135,379,161" />
                                  <area alt="filters.tmp#gainparam" href="filters.html#gainparam" coords="202,3,352,43" /></map></div>
                         </td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:gainparam</a></b></td>
+                        <td><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:gainparam</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -2494,7 +2712,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2507,7 +2725,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="amplifier_invertgain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:amplifier</a></b> / invertgain</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="amplifier_invertgain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:amplifier</a></b> / invertgain</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2600,7 +2818,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2613,7 +2831,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="amplifier_gain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:amplifier</a></b> / gain</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="amplifier_gain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:amplifier</a></b> / gain</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2635,7 +2853,7 @@
                            <div class="floatRight"><input id="button_diagram_amplifier_gain" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_amplifier_gain');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_amplifier_gain" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_gain.jpeg" usemap="#filters_xsd_Element_gain" /><map name="filters_xsd_Element_gain" id="filters_xsd_Element_gain">
+                           <div id="diagram_amplifier_gain" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_gain_1.jpeg" usemap="#filters_xsd_Element_gain_1" /><map name="filters_xsd_Element_gain_1" id="filters_xsd_Element_gain_1">
                                  <area alt="filters.tmp#filterParam" href="filters.html#filterParam" coords="267,193,416,219" />
                                  <area alt="filters.tmp#gainparam" href="filters.html#gainparam" coords="239,61,481,101" />
                                  <area alt="filters.tmp#channelGainType_channel" href="filters.html#channelGainType_channel" coords="250,286,443,328" />
@@ -2644,15 +2862,15 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:channelGainType</a></b></td>
+                        <td><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:channelGainType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type hierarchy</b></td>
                         <td>
-                           <ul>
-                              <li><b>xs:double</b><ul>
-                                    <li><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:gainparam</a></b><ul>
-                                          <li><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:channelGainType</a></b></li>
+                           <ul class="internal">
+                              <li class="internal"><b>xs:double</b><ul class="internal">
+                                    <li class="internal"><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:gainparam</a></b><ul class="internal">
+                                          <li class="internal"><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:channelGainType</a></b></li>
                                        </ul>
                                     </li>
                                  </ul>
@@ -2710,8 +2928,8 @@
                                              <tr>
                                                 <td width="100%"><pre><span class="tT">Used to specify a single channel to apply gain to,</span><span class="tI">
 </span><span class="tT">instead of applying it to all channels at once.</span><span class="tI">
-</span><span class="tT">For example, for an amplifier having two channels, these are set independently by using</span><span class="tEl">&lt;gain</span><span class="tAN"> id=</span><span class="tAV">"ch0"</span><span class="tAN"> channel=</span><span class="tAV">"0"</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">-3.00</span><span class="tEl">&lt;/gain&gt;</span><span class="tI">
-</span><span class="tEl">&lt;gain</span><span class="tAN"> id=</span><span class="tAV">"ch1"</span><span class="tAN"> channel=</span><span class="tAV">"1"</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">-6.00</span><span class="tEl">&lt;/gain&gt;</span><span class="tT">Channels are zero based, ie the first channel is 0, the</span><span class="tI">
+</span><span class="tT">For example, for an amplifier having two channels, these are set independently by using </span><span class="tEl">&lt;gain</span><span class="tAN"> id=</span><span class="tAV">"ch0"</span><span class="tAN"> channel=</span><span class="tAV">"0"</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">-3.00</span><span class="tEl">&lt;/gain&gt;</span><span class="tI">
+</span><span class="tEl">&lt;gain</span><span class="tAN"> id=</span><span class="tAV">"ch1"</span><span class="tAN"> channel=</span><span class="tAV">"1"</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">-6.00</span><span class="tEl">&lt;/gain&gt;</span><span class="tT"> Channels are zero based, ie the first channel is 0, the</span><span class="tI">
 </span><span class="tT">second 1 and so on.</span></pre></td>
                                              </tr>
                                           </table>
@@ -2748,7 +2966,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2761,7 +2979,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="fader_length"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:fader</a></b> / length</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="fader_length"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:fader</a></b> / length</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2884,7 +3102,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2897,7 +3115,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="fader_type"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:fader</a></b> / type</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="fader_type"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:fader</a></b> / type</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2936,7 +3154,7 @@
                            <div class="floatRight"><input id="button_diagram_fader_type" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_fader_type');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_fader_type" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_type.jpeg" /></div>
+                           <div id="diagram_fader_type" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_type_1.jpeg" /></div>
                         </td>
                      </tr>
                      <tr>
@@ -3016,7 +3234,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3029,7 +3247,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="fader_direction"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:fader</a></b> / direction</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="fader_direction"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:fader</a></b> / direction</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3149,7 +3367,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3162,7 +3380,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="dataloop_datablock"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:dataloop</a></b> / datablock</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="dataloop_datablock"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:dataloop</a></b> / datablock</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3224,7 +3442,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3237,7 +3455,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="dataloop_basegain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:dataloop</a></b> / basegain</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="dataloop_basegain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:dataloop</a></b> / basegain</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3330,7 +3548,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3343,7 +3561,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="dataloop_invertgain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:dataloop</a></b> / invertgain</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="dataloop_invertgain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:dataloop</a></b> / invertgain</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3384,7 +3602,7 @@
                            <div class="floatRight"><input id="button_diagram_dataloop_invertgain" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_dataloop_invertgain');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_dataloop_invertgain" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_invertgain.jpeg" /></div>
+                           <div id="diagram_dataloop_invertgain" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_invertgain_2.jpeg" /></div>
                         </td>
                      </tr>
                      <tr>
@@ -3436,7 +3654,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3449,7 +3667,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="dataloop_gain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:dataloop</a></b> / gain</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="dataloop_gain"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:dataloop</a></b> / gain</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3471,14 +3689,14 @@
                            <div class="floatRight"><input id="button_diagram_dataloop_gain" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_dataloop_gain');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_dataloop_gain" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_gain_1.jpeg" usemap="#filters_xsd_Element_gain_1" /><map name="filters_xsd_Element_gain_1" id="filters_xsd_Element_gain_1">
+                           <div id="diagram_dataloop_gain" style="display:block"><img alt="Diagram" border="0" src="img/filters_xsd_Element_gain_2.jpeg" usemap="#filters_xsd_Element_gain_2" /><map name="filters_xsd_Element_gain_2" id="filters_xsd_Element_gain_2">
                                  <area alt="filters.tmp#filterParam" href="filters.html#filterParam" coords="217,135,366,161" />
                                  <area alt="filters.tmp#gainparam" href="filters.html#gainparam" coords="189,3,339,43" /></map></div>
                         </td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:gainparam</a></b></td>
+                        <td><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:gainparam</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -3541,7 +3759,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3554,7 +3772,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="dataloop_randomjump"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:dataloop</a></b> / randomjump</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="dataloop_randomjump"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:dataloop</a></b> / randomjump</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3646,7 +3864,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3659,7 +3877,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="dataloop_jump"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:dataloop</a></b> / jump</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="dataloop_jump"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:dataloop</a></b> / jump</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3752,7 +3970,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3765,7 +3983,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="hrtffiltersum_anglespeech"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:hrtffiltersum</a></b> / anglespeech</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="hrtffiltersum_anglespeech"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:hrtffiltersum</a></b> / anglespeech</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3864,7 +4082,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3877,7 +4095,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="hrtffiltersum_anglenoise"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:hrtffiltersum</a></b> / anglenoise</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="hrtffiltersum_anglenoise"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:hrtffiltersum</a></b> / anglenoise</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3976,7 +4194,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3989,7 +4207,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="hrtffiltersum_snr"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:hrtffiltersum</a></b> / snr</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="hrtffiltersum_snr"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:hrtffiltersum</a></b> / snr</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -4088,7 +4306,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4101,7 +4319,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="hrtffiltersum_speechfile"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:hrtffiltersum</a></b> / speechfile</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="hrtffiltersum_speechfile"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:hrtffiltersum</a></b> / speechfile</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -4200,7 +4418,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4213,7 +4431,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="hrtffiltersum_noisefile"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:hrtffiltersum</a></b> / noisefile</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="hrtffiltersum_noisefile"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:hrtffiltersum</a></b> / noisefile</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -4312,7 +4530,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4325,7 +4543,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="pluginfilter_plugin"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginfilter</a></b> / plugin</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="pluginfilter_plugin"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginfilter</a></b> / plugin</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -4387,7 +4605,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4400,7 +4618,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="pluginfilter_parameter"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginfilter</a></b> / parameter</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="pluginfilter_parameter"></a><div class="componentTitle">Element <span class="qname"><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginfilter</a></b> / parameter</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -4531,7 +4749,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4558,7 +4776,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -4606,7 +4824,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4633,7 +4851,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -4679,7 +4897,7 @@
                                  </tr>
                                  <tr>
                                     <td class="firstColumn">Complex Types </td>
-                                    <td><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:amplifier</a></b>, <b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:dataloop</a></b>, <b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:fader</a></b>, <b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:generator</a></b>, <b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:hrtffiltersum</a></b>, <b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginfilter</a></b></td>
+                                    <td><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:amplifier</a></b>, <b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:dataloop</a></b>, <b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:fader</a></b>, <b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:generator</a></b>, <b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:hrtffiltersum</a></b>, <b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginfilter</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -4764,7 +4982,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4791,7 +5009,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -4807,15 +5025,15 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td>extension of <b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:gainparam</a></b></td>
+                        <td>extension of <b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:gainparam</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type hierarchy</b></td>
                         <td>
-                           <ul>
-                              <li><b>xs:double</b><ul>
-                                    <li><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:gainparam</a></b><ul>
-                                          <li><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:channelGainType</a></b></li>
+                           <ul class="internal">
+                              <li class="internal"><b>xs:double</b><ul class="internal">
+                                    <li class="internal"><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:gainparam</a></b><ul class="internal">
+                                          <li class="internal"><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:channelGainType</a></b></li>
                                        </ul>
                                     </li>
                                  </ul>
@@ -4865,8 +5083,8 @@
                                              <tr>
                                                 <td width="100%"><pre><span class="tT">Used to specify a single channel to apply gain to,</span><span class="tI">
 </span><span class="tT">instead of applying it to all channels at once.</span><span class="tI">
-</span><span class="tT">For example, for an amplifier having two channels, these are set independently by using</span><span class="tEl">&lt;gain</span><span class="tAN"> id=</span><span class="tAV">"ch0"</span><span class="tAN"> channel=</span><span class="tAV">"0"</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">-3.00</span><span class="tEl">&lt;/gain&gt;</span><span class="tI">
-</span><span class="tEl">&lt;gain</span><span class="tAN"> id=</span><span class="tAV">"ch1"</span><span class="tAN"> channel=</span><span class="tAV">"1"</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">-6.00</span><span class="tEl">&lt;/gain&gt;</span><span class="tT">Channels are zero based, ie the first channel is 0, the</span><span class="tI">
+</span><span class="tT">For example, for an amplifier having two channels, these are set independently by using </span><span class="tEl">&lt;gain</span><span class="tAN"> id=</span><span class="tAV">"ch0"</span><span class="tAN"> channel=</span><span class="tAV">"0"</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">-3.00</span><span class="tEl">&lt;/gain&gt;</span><span class="tI">
+</span><span class="tEl">&lt;gain</span><span class="tAN"> id=</span><span class="tAV">"ch1"</span><span class="tAN"> channel=</span><span class="tAV">"1"</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">-6.00</span><span class="tEl">&lt;/gain&gt;</span><span class="tT"> Channels are zero based, ie the first channel is 0, the</span><span class="tI">
 </span><span class="tT">second 1 and so on.</span></pre></td>
                                              </tr>
                                           </table>
@@ -4914,7 +5132,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -4941,7 +5159,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -4967,7 +5185,7 @@
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Complex Type </td>
-                                    <td><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:channelGainType</a></b></td>
+                                    <td><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:channelGainType</a></b></td>
                                  </tr>
                                  <tr>
                                     <td class="firstColumn">Elements </td>
@@ -5028,7 +5246,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -5055,7 +5273,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -5098,14 +5316,14 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td>extension of <b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b></td>
+                        <td>extension of <b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type hierarchy</b></td>
                         <td>
-                           <ul>
-                              <li><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b><ul>
-                                    <li><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:generator</a></b></li>
+                           <ul class="internal">
+                              <li class="internal"><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b><ul class="internal">
+                                    <li class="internal"><b><a href="filters.html#generator" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:generator</a></b></li>
                                  </ul>
                               </li>
                            </ul>
@@ -5262,7 +5480,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -5289,7 +5507,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -5310,14 +5528,14 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td>extension of <b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b></td>
+                        <td>extension of <b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type hierarchy</b></td>
                         <td>
-                           <ul>
-                              <li><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b><ul>
-                                    <li><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:amplifier</a></b></li>
+                           <ul class="internal">
+                              <li class="internal"><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b><ul class="internal">
+                                    <li class="internal"><b><a href="filters.html#amplifier" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:amplifier</a></b></li>
                                  </ul>
                               </li>
                            </ul>
@@ -5398,7 +5616,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -5425,7 +5643,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -5446,14 +5664,14 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td>extension of <b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b></td>
+                        <td>extension of <b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type hierarchy</b></td>
                         <td>
-                           <ul>
-                              <li><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b><ul>
-                                    <li><b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:fader</a></b></li>
+                           <ul class="internal">
+                              <li class="internal"><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b><ul class="internal">
+                                    <li class="internal"><b><a href="filters.html#fader" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:fader</a></b></li>
                                  </ul>
                               </li>
                            </ul>
@@ -5556,7 +5774,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -5583,7 +5801,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -5624,14 +5842,14 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td>extension of <b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b></td>
+                        <td>extension of <b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type hierarchy</b></td>
                         <td>
-                           <ul>
-                              <li><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b><ul>
-                                    <li><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:dataloop</a></b></li>
+                           <ul class="internal">
+                              <li class="internal"><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b><ul class="internal">
+                                    <li class="internal"><b><a href="filters.html#dataloop" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:dataloop</a></b></li>
                                  </ul>
                               </li>
                            </ul>
@@ -5725,7 +5943,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -5752,7 +5970,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -5775,14 +5993,14 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td>extension of <b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b></td>
+                        <td>extension of <b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type hierarchy</b></td>
                         <td>
-                           <ul>
-                              <li><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b><ul>
-                                    <li><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:hrtffiltersum</a></b></li>
+                           <ul class="internal">
+                              <li class="internal"><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b><ul class="internal">
+                                    <li class="internal"><b><a href="filters.html#hrtffiltersum" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:hrtffiltersum</a></b></li>
                                  </ul>
                               </li>
                            </ul>
@@ -5896,7 +6114,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -5923,7 +6141,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -5960,14 +6178,14 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td>extension of <b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b></td>
+                        <td>extension of <b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type hierarchy</b></td>
                         <td>
-                           <ul>
-                              <li><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b><ul>
-                                    <li><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginfilter</a></b></li>
+                           <ul class="internal">
+                              <li class="internal"><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b><ul class="internal">
+                                    <li class="internal"><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginfilter</a></b></li>
                                  </ul>
                               </li>
                            </ul>
@@ -6051,7 +6269,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -6064,7 +6282,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filterType_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b> / @id</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filterType_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b> / @id</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -6110,7 +6328,7 @@
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Complex Type </td>
-                                    <td><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterType</a></b></td>
+                                    <td><b><a href="filters.html#filterType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterType</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -6133,7 +6351,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -6146,7 +6364,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filterParam_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="filters.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterParam</a></b> / @id</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="filterParam_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="filters.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterParam</a></b> / @id</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -6192,7 +6410,7 @@
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Attribute Group </td>
-                                    <td><b><a href="filters.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:filterParam</a></b></td>
+                                    <td><b><a href="filters.html#filterParam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:filterParam</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -6215,7 +6433,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/parameter.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/parameter.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -6228,7 +6446,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="channelGainType_channel"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:channelGainType</a></b> / @channel</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="channelGainType_channel"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:channelGainType</a></b> / @channel</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -6256,8 +6474,8 @@
                                     <tr>
                                        <td width="100%"><pre><span class="tT">Used to specify a single channel to apply gain to,</span><span class="tI">
 </span><span class="tT">instead of applying it to all channels at once.</span><span class="tI">
-</span><span class="tT">For example, for an amplifier having two channels, these are set independently by using</span><span class="tEl">&lt;gain</span><span class="tAN"> id=</span><span class="tAV">"ch0"</span><span class="tAN"> channel=</span><span class="tAV">"0"</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">-3.00</span><span class="tEl">&lt;/gain&gt;</span><span class="tI">
-</span><span class="tEl">&lt;gain</span><span class="tAN"> id=</span><span class="tAV">"ch1"</span><span class="tAN"> channel=</span><span class="tAV">"1"</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">-6.00</span><span class="tEl">&lt;/gain&gt;</span><span class="tT">Channels are zero based, ie the first channel is 0, the</span><span class="tI">
+</span><span class="tT">For example, for an amplifier having two channels, these are set independently by using </span><span class="tEl">&lt;gain</span><span class="tAN"> id=</span><span class="tAV">"ch0"</span><span class="tAN"> channel=</span><span class="tAV">"0"</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">-3.00</span><span class="tEl">&lt;/gain&gt;</span><span class="tI">
+</span><span class="tEl">&lt;gain</span><span class="tAN"> id=</span><span class="tAV">"ch1"</span><span class="tAN"> channel=</span><span class="tAV">"1"</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">-6.00</span><span class="tEl">&lt;/gain&gt;</span><span class="tT"> Channels are zero based, ie the first channel is 0, the</span><span class="tI">
 </span><span class="tT">second 1 and so on.</span></pre></td>
                                     </tr>
                                  </table>
@@ -6295,7 +6513,7 @@
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Complex Type </td>
-                                    <td><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:channelGainType</a></b></td>
+                                    <td><b><a href="filters.html#channelGainType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:channelGainType</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -6324,7 +6542,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -6337,7 +6555,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="pluginfilter_pluginfilter_parameter_name"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginfilter</a></b> / <b><a href="filters.html#pluginfilter_parameter" target="_self" title="No namespace">parameter</a></b> / @name</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="pluginfilter_pluginfilter_parameter_name"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginfilter</a></b> / <b><a href="filters.html#pluginfilter_parameter" target="_self" title="No namespace">parameter</a></b> / @name</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -6406,7 +6624,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -6419,7 +6637,7 @@
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="pluginfilter_pluginfilter_parameter_channel"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:pluginfilter</a></b> / <b><a href="filters.html#pluginfilter_parameter" target="_self" title="No namespace">parameter</a></b> / @channel</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="pluginfilter_pluginfilter_parameter_channel"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="filters.html#pluginfilter" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:pluginfilter</a></b> / <b><a href="filters.html#pluginfilter_parameter" target="_self" title="No namespace">parameter</a></b> / @channel</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -6488,7 +6706,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/filters.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/filters.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -6515,7 +6733,7 @@
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/3.1.5/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -6537,7 +6755,7 @@
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Complex Type </td>
-                                    <td><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/3.1.5/experiment">apex:gainparam</a></b></td>
+                                    <td><b><a href="filters.html#gainparam" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:gainparam</a></b></td>
                                  </tr>
                                  <tr>
                                     <td class="firstColumn">Elements </td>
@@ -6594,7 +6812,7 @@
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/luna.kuleuven.be/u0097884/Workstuff/apex/data/schemas/parameter.xsd</td>
+                        <td>file:/home/u0097884/workstuff/apex/data/schemas/parameter.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -6613,7 +6831,7 @@
          <div align="center">XML Schema documentation generated by <a href="http://www.oxygenxml.com" target="_parent"><span class="oXygenLogo"><span class="redX">&lt;</span>o<span class="redX">X</span>ygen<span class="redX">/&gt;</span></span></a><sup>®</sup> XML Editor.
          </div>
       </div><script type="text/javascript">
-         <!--                     
+         <!--
                      // The namespace is the selected option in the TOC combo.
                     
                      // Floats the toolbar.
@@ -6641,5 +6859,5 @@
 	                     
 	                     globalControls.style.right='0';                       
                      }
-                --></script></body>
+                //--></script></body>
 </html>
