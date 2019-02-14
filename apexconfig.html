@@ -23,6 +23,7 @@
 				'properties_apex_interactive', 
 				'properties_apex_apex_interactive_constraints', 
 				'properties_apex_apex_interactive_apex_apex_interactive_constraints_constraint', 
+				'properties_apex_useInstallationWideSettings', 
 				'properties_drivernameType', 
 				'properties_cohDriverType', 
 				'properties_drivernameType_driver', 
@@ -56,6 +57,7 @@ var sourceBoxes= new Array('source_soundcardType_drivername',
 				'source_apex_interactive', 
 				'source_apex_apex_interactive_constraints', 
 				'source_apex_apex_interactive_apex_apex_interactive_constraints_constraint', 
+				'source_apex_useInstallationWideSettings', 
 				'source_drivernameType', 
 				'source_soundcardType', 
 				'source_cohDriverType', 
@@ -89,6 +91,7 @@ var diagramBoxes= new Array('diagram_soundcardType_drivername',
 				'diagram_apex_interactive', 
 				'diagram_apex_apex_interactive_constraints', 
 				'diagram_apex_apex_interactive_apex_apex_interactive_constraints_constraint', 
+				'diagram_apex_useInstallationWideSettings', 
 				'diagram_drivernameType', 
 				'diagram_soundcardType', 
 				'diagram_cohDriverType');
@@ -96,7 +99,8 @@ var annotationBoxes= new Array('annotations_apexconfig.xsd',
 				'annotations_apex_apex_paths_pluginScriptLibrary', 
 				'annotations_apex_apex_paths_xslt', 
 				'annotations_apex_bertha', 
-				'annotations_apex_studyshareurl');
+				'annotations_apex_studyshareurl', 
+				'annotations_apex_useInstallationWideSettings');
 var attributesBoxes= new Array('attributes_soundcardType_drivername', 
 				'attributes_apex', 
 				'attributes_apex_apex_soundcards_card', 
@@ -415,7 +419,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
          <div class="level1" id="toc_group_by_namespace" style="display:block">
             <div>
                <div class="level2">
-                  <p><input id="button_boxIdNamespace1" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1');" class="control" /><span class="indexGroupTitle">http://med.kuleuven.be/exporl/apex/4.0.0/experiment</span></p>
+                  <p><input id="button_boxIdNamespace1" type="image" value="-" src="img/btM.gif" onclick="switchState('boxIdNamespace1');" class="control" /><span class="indexGroupTitle">http://med.kuleuven.be/exporl/apex/4.0.1/experiment</span></p>
                   <div id="boxIdNamespace1" style="display:block">
                      <div class="horizontalLayout">
                         <table class="rt">
@@ -439,7 +443,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="boxIdNamespace1Main_schema" class="componentGroup" style="display:block">
-                                                <div><b><a href="apexconfig.html#apexconfig.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apexconfig.xsd</a></b></div>
+                                                <div><b><a href="apexconfig.html#apexconfig.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apexconfig.xsd</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -477,7 +481,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="boxIdNamespace1Element" class="componentGroup" style="display:block">
-                                                <div><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b></div>
+                                                <div><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -515,9 +519,9 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="boxIdNamespace1Complex_Type" class="componentGroup" style="display:block">
-                                                <div><b><a href="apexconfig.html#cohDriverType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:cohDriverType</a></b></div>
-                                                <div><b><a href="apexconfig.html#drivernameType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:drivernameType</a></b></div>
-                                                <div><b><a href="apexconfig.html#soundcardType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:soundcardType</a></b></div>
+                                                <div><b><a href="apexconfig.html#cohDriverType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:cohDriverType</a></b></div>
+                                                <div><b><a href="apexconfig.html#drivernameType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:drivernameType</a></b></div>
+                                                <div><b><a href="apexconfig.html#soundcardType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:soundcardType</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -562,7 +566,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                                     <td class="componentGroup"></td>
                                     <td class="componentGroup">
                                        <div id="Main_schema" class="componentGroup" style="display:block">
-                                          <div><b><a href="apexconfig.html#apexconfig.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apexconfig.xsd</a></b></div>
+                                          <div><b><a href="apexconfig.html#apexconfig.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apexconfig.xsd</a></b></div>
                                        </div>
                                     </td>
                                  </tr>
@@ -600,7 +604,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                                     <td class="componentGroup"></td>
                                     <td class="componentGroup">
                                        <div id="Element" class="componentGroup" style="display:block">
-                                          <div><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b></div>
+                                          <div><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b></div>
                                        </div>
                                     </td>
                                  </tr>
@@ -638,9 +642,9 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                                     <td class="componentGroup"></td>
                                     <td class="componentGroup">
                                        <div id="Complex_Type" class="componentGroup" style="display:block">
-                                          <div><b><a href="apexconfig.html#cohDriverType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:cohDriverType</a></b></div>
-                                          <div><b><a href="apexconfig.html#drivernameType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:drivernameType</a></b></div>
-                                          <div><b><a href="apexconfig.html#soundcardType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:soundcardType</a></b></div>
+                                          <div><b><a href="apexconfig.html#cohDriverType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:cohDriverType</a></b></div>
+                                          <div><b><a href="apexconfig.html#drivernameType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:drivernameType</a></b></div>
+                                          <div><b><a href="apexconfig.html#soundcardType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:soundcardType</a></b></div>
                                        </div>
                                     </td>
                                  </tr>
@@ -686,7 +690,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="gr_apexconfig.xsdMain_schema" class="componentGroup" style="display:block">
-                                                <div><b><a href="apexconfig.html#apexconfig.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apexconfig.xsd</a></b></div>
+                                                <div><b><a href="apexconfig.html#apexconfig.xsd" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apexconfig.xsd</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -724,7 +728,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="gr_apexconfig.xsdElement" class="componentGroup" style="display:block">
-                                                <div><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b></div>
+                                                <div><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -762,9 +766,9 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                                           <td class="componentGroup"></td>
                                           <td class="componentGroup">
                                              <div id="gr_apexconfig.xsdComplex_Type" class="componentGroup" style="display:block">
-                                                <div><b><a href="apexconfig.html#cohDriverType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:cohDriverType</a></b></div>
-                                                <div><b><a href="apexconfig.html#drivernameType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:drivernameType</a></b></div>
-                                                <div><b><a href="apexconfig.html#soundcardType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:soundcardType</a></b></div>
+                                                <div><b><a href="apexconfig.html#cohDriverType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:cohDriverType</a></b></div>
+                                                <div><b><a href="apexconfig.html#drivernameType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:drivernameType</a></b></div>
+                                                <div><b><a href="apexconfig.html#soundcardType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:soundcardType</a></b></div>
                                              </div>
                                           </td>
                                        </tr>
@@ -799,7 +803,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.1/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -840,7 +844,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -853,7 +857,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="soundcardType_drivername"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#soundcardType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:soundcardType</a></b> / drivername</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="soundcardType_drivername"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#soundcardType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:soundcardType</a></b> / drivername</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -882,7 +886,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="apexconfig.html#drivernameType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:drivernameType</a></b></td>
+                        <td><b><a href="apexconfig.html#drivernameType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:drivernameType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -964,7 +968,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -991,7 +995,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.1/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -1007,7 +1011,8 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                                  <area alt="apexconfig.tmp#apex_prefixes" href="apexconfig.html#apex_prefixes" coords="157,201,234,225" />
                                  <area alt="apexconfig.tmp#apex_bertha" href="apexconfig.html#apex_bertha" coords="157,235,285,277" />
                                  <area alt="apexconfig.tmp#apex_studyshareurl" href="apexconfig.html#apex_studyshareurl" coords="157,287,278,329" />
-                                 <area alt="apexconfig.tmp#apex_interactive" href="apexconfig.html#apex_interactive" coords="157,339,247,363" /></map></div>
+                                 <area alt="apexconfig.tmp#apex_interactive" href="apexconfig.html#apex_interactive" coords="157,339,247,363" />
+                                 <area alt="apexconfig.tmp#apex_useInstallationWideSettings" href="apexconfig.html#apex_useInstallationWideSettings" coords="157,373,344,415" /></map></div>
                         </td>
                      </tr>
                      <tr>
@@ -1030,12 +1035,12 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                         <td class="firstColumn"><b>Model</b><div class="floatRight"><input id="button_model_apex" type="image" src="img/btM.gif" value="-" onclick="switchState('model_apex');" class="control" /></div>
                         </td>
                         <td>
-                           <div id="model_apex" style="display:block"><b><a href="apexconfig.html#apex_paths" target="_self" title="No namespace">paths</a></b> , <b><a href="apexconfig.html#apex_soundcards" target="_self" title="No namespace">soundcards</a></b> , <b><a href="apexconfig.html#apex_cohdrivers" target="_self" title="No namespace">cohdrivers{0,1}</a></b> , <b><a href="apexconfig.html#apex_prefixes" target="_self" title="No namespace">prefixes{0,1}</a></b> , <b><a href="apexconfig.html#apex_bertha" target="_self" title="No namespace">bertha{0,1}</a></b> , <b><a href="apexconfig.html#apex_studyshareurl" target="_self" title="No namespace">studyshareurl{0,1}</a></b> , <b><a href="apexconfig.html#apex_interactive" target="_self" title="No namespace">interactive{0,1}</a></b></div>
+                           <div id="model_apex" style="display:block"><b><a href="apexconfig.html#apex_paths" target="_self" title="No namespace">paths</a></b> , <b><a href="apexconfig.html#apex_soundcards" target="_self" title="No namespace">soundcards</a></b> , <b><a href="apexconfig.html#apex_cohdrivers" target="_self" title="No namespace">cohdrivers{0,1}</a></b> , <b><a href="apexconfig.html#apex_prefixes" target="_self" title="No namespace">prefixes{0,1}</a></b> , <b><a href="apexconfig.html#apex_bertha" target="_self" title="No namespace">bertha{0,1}</a></b> , <b><a href="apexconfig.html#apex_studyshareurl" target="_self" title="No namespace">studyshareurl{0,1}</a></b> , <b><a href="apexconfig.html#apex_interactive" target="_self" title="No namespace">interactive{0,1}</a></b> , <b><a href="apexconfig.html#apex_useInstallationWideSettings" target="_self" title="No namespace">useInstallationWideSettings{0,1}</a></b></div>
                         </td>
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Children</b></td>
-                        <td><b><a href="apexconfig.html#apex_bertha" target="_self" title="No namespace">bertha</a></b>, <b><a href="apexconfig.html#apex_cohdrivers" target="_self" title="No namespace">cohdrivers</a></b>, <b><a href="apexconfig.html#apex_interactive" target="_self" title="No namespace">interactive</a></b>, <b><a href="apexconfig.html#apex_paths" target="_self" title="No namespace">paths</a></b>, <b><a href="apexconfig.html#apex_prefixes" target="_self" title="No namespace">prefixes</a></b>, <b><a href="apexconfig.html#apex_soundcards" target="_self" title="No namespace">soundcards</a></b>, <b><a href="apexconfig.html#apex_studyshareurl" target="_self" title="No namespace">studyshareurl</a></b></td>
+                        <td><b><a href="apexconfig.html#apex_bertha" target="_self" title="No namespace">bertha</a></b>, <b><a href="apexconfig.html#apex_cohdrivers" target="_self" title="No namespace">cohdrivers</a></b>, <b><a href="apexconfig.html#apex_interactive" target="_self" title="No namespace">interactive</a></b>, <b><a href="apexconfig.html#apex_paths" target="_self" title="No namespace">paths</a></b>, <b><a href="apexconfig.html#apex_prefixes" target="_self" title="No namespace">prefixes</a></b>, <b><a href="apexconfig.html#apex_soundcards" target="_self" title="No namespace">soundcards</a></b>, <b><a href="apexconfig.html#apex_studyshareurl" target="_self" title="No namespace">studyshareurl</a></b>, <b><a href="apexconfig.html#apex_useInstallationWideSettings" target="_self" title="No namespace">useInstallationWideSettings</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -1046,7 +1051,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                            <div id="instance_apex" style="display:block">
                               <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
                                  <tr>
-                                    <td width="100%"><pre><span class="tEl">&lt;apex:apex</span><span class="tT"> </span><span class="tAN">version=</span><span class="tAV">""</span><span class="tT"> </span><span class="tAN">xmlns:apex=</span><span class="tAV">"http://med.kuleuven.be/exporl/apex/4.0.0/experiment"</span><span class="tEl">&gt;</span><span class="tI">
+                                    <td width="100%"><pre><span class="tEl">&lt;apex:apex</span><span class="tT"> </span><span class="tAN">version=</span><span class="tAV">""</span><span class="tT"> </span><span class="tAN">xmlns:apex=</span><span class="tAV">"http://med.kuleuven.be/exporl/apex/4.0.1/experiment"</span><span class="tEl">&gt;</span><span class="tI">
   </span><span class="tEl">&lt;paths</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">{1,1}</span><span class="tEl">&lt;/paths&gt;</span><span class="tI">
   </span><span class="tEl">&lt;soundcards</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">{1,1}</span><span class="tEl">&lt;/soundcards&gt;</span><span class="tI">
   </span><span class="tEl">&lt;cohdrivers</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">{0,1}</span><span class="tEl">&lt;/cohdrivers&gt;</span><span class="tI">
@@ -1054,6 +1059,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
   </span><span class="tEl">&lt;bertha</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">{0,1}</span><span class="tEl">&lt;/bertha&gt;</span><span class="tI">
   </span><span class="tEl">&lt;studyshareurl</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">{0,1}</span><span class="tEl">&lt;/studyshareurl&gt;</span><span class="tI">
   </span><span class="tEl">&lt;interactive</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">{0,1}</span><span class="tEl">&lt;/interactive&gt;</span><span class="tI">
+  </span><span class="tEl">&lt;useInstallationWideSettings</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">{0,1}</span><span class="tEl">&lt;/useInstallationWideSettings&gt;</span><span class="tI">
 </span><span class="tEl">&lt;/apex:apex&gt;</span></pre></td>
                                  </tr>
                               </table>
@@ -1180,6 +1186,11 @@ var modelBoxes= new Array('model_soundcardType_drivername',
           </span><span class="tEl">&lt;/xs:sequence&gt;</span><span class="tI">
         </span><span class="tEl">&lt;/xs:complexType&gt;</span><span class="tI">
       </span><span class="tEl">&lt;/xs:element&gt;</span><span class="tI">
+      </span><span class="tEl">&lt;xs:element</span><span class="tAN"> name=</span><span class="tAV">"useInstallationWideSettings"</span><span class="tAN"> type=</span><span class="tAV">"xs:boolean"</span><span class="tAN"> minOccurs=</span><span class="tAV">"0"</span><span class="tEl">&gt;</span><span class="tI">
+        </span><span class="tEl">&lt;xs:annotation</span><span class="tEl">&gt;</span><span class="tI">
+          </span><span class="tEl">&lt;xs:documentation</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">Specify whether to use user-specific settings or installation-wide settings. User-specific settings are stored in a user specific location (on windows under [HKEY_CURRENT_USER\Software\ExpORL\APEX] in the registry, on linux in $HOME/.config/ExpORL/APEX.conf). Installation-wide settings are stored in the folder where the apex binary resides (e.g. /path/to/apex-installation/config/ExpORL/APEX.ini).</span><span class="tEl">&lt;/xs:documentation&gt;</span><span class="tI">
+        </span><span class="tEl">&lt;/xs:annotation&gt;</span><span class="tI">
+      </span><span class="tEl">&lt;/xs:element&gt;</span><span class="tI">
     </span><span class="tEl">&lt;/xs:sequence&gt;</span><span class="tI">
     </span><span class="tEl">&lt;xs:attribute</span><span class="tAN"> name=</span><span class="tAV">"version"</span><span class="tAN"> use=</span><span class="tAV">"required"</span><span class="tAN"> type=</span><span class="tAV">"xs:positiveInteger"</span><span class="tEl">/&gt;</span><span class="tI">
   </span><span class="tEl">&lt;/xs:complexType&gt;</span><span class="tI">
@@ -1191,7 +1202,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1204,7 +1215,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_paths"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / paths</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_paths"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / paths</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1308,7 +1319,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1321,7 +1332,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_paths_pluginScriptLibrary"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_paths" target="_self" title="No namespace">paths</a></b> / pluginScriptLibrary</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_paths_pluginScriptLibrary"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_paths" target="_self" title="No namespace">paths</a></b> / pluginScriptLibrary</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1409,7 +1420,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1422,7 +1433,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_paths_xslt"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_paths" target="_self" title="No namespace">paths</a></b> / xslt</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_paths_xslt"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_paths" target="_self" title="No namespace">paths</a></b> / xslt</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1509,7 +1520,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1522,7 +1533,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_soundcards"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / soundcards</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_soundcards"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / soundcards</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1615,7 +1626,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1628,7 +1639,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_soundcards_card"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_soundcards" target="_self" title="No namespace">soundcards</a></b> / card</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_soundcards_card"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_soundcards" target="_self" title="No namespace">soundcards</a></b> / card</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1658,7 +1669,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="apexconfig.html#soundcardType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:soundcardType</a></b></td>
+                        <td><b><a href="apexconfig.html#soundcardType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:soundcardType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -1757,7 +1768,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1770,7 +1781,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_cohdrivers"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / cohdrivers</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_cohdrivers"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / cohdrivers</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1867,7 +1878,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -1880,7 +1891,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_cohdrivers_cohdriver"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_cohdrivers" target="_self" title="No namespace">cohdrivers</a></b> / cohdriver</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_cohdrivers_cohdriver"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_cohdrivers" target="_self" title="No namespace">cohdrivers</a></b> / cohdriver</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -1909,7 +1920,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Type</b></td>
-                        <td><b><a href="apexconfig.html#cohDriverType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:cohDriverType</a></b></td>
+                        <td><b><a href="apexconfig.html#cohDriverType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:cohDriverType</a></b></td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -1991,7 +2002,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2004,7 +2015,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_prefixes"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / prefixes</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_prefixes"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / prefixes</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2109,7 +2120,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2122,7 +2133,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_prefixes_prefix"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_prefixes" target="_self" title="No namespace">prefixes</a></b> / prefix</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_prefixes_prefix"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_prefixes" target="_self" title="No namespace">prefixes</a></b> / prefix</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2229,7 +2240,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2242,7 +2253,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_bertha"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / bertha</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_bertha"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / bertha</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2330,7 +2341,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2343,7 +2354,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_studyshareurl"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / studyshareurl</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_studyshareurl"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / studyshareurl</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2430,7 +2441,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2443,7 +2454,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_interactive"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / interactive</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_interactive"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / interactive</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2558,7 +2569,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2571,7 +2582,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_interactive_constraints"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_interactive" target="_self" title="No namespace">interactive</a></b> / constraints</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_interactive_constraints"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_interactive" target="_self" title="No namespace">interactive</a></b> / constraints</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2647,6 +2658,34 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn">
+                           <div class="floatLeft"><b>Identity constraints</b></div>
+                           <div class="floatRight"><input id="button_identityConstraints_apex_apex_interactive_constraints" type="image" src="img/btM.gif" value="-" onclick="switchState('identityConstraints_apex_apex_interactive_constraints');" class="control" /></div>
+                        </td>
+                        <td>
+                           <div id="identityConstraints_apex_apex_interactive_constraints" style="display:block">
+                              <table class="identityConstraintsTable">
+                                 <thead>
+                                    <tr>
+                                       <th>QName</th>
+                                       <th>Type</th>
+                                       <th>Refer</th>
+                                       <th>Selector</th>
+                                       <th>Field(s)</th>
+                                    </tr>
+                                 </thead>
+                                 <tr>
+                                    <td>unique-expression</td>
+                                    <td>unique</td>
+                                    <td></td>
+                                    <td>./constraint</td>
+                                    <td>@expression</td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="firstColumn">
                            <div class="floatLeft"><b>Source</b></div>
                            <div class="floatRight"><input id="button_source_apex_apex_interactive_constraints" type="image" src="img/btM.gif" value="-" onclick="switchState('source_apex_apex_interactive_constraints');" class="control" /></div>
                         </td>
@@ -2680,7 +2719,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2693,7 +2732,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_interactive_apex_apex_interactive_constraints_constraint"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_interactive" target="_self" title="No namespace">interactive</a></b> / <b><a href="apexconfig.html#apex_apex_interactive_constraints" target="_self" title="No namespace">constraints</a></b> / constraint</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_interactive_apex_apex_interactive_constraints_constraint"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_interactive" target="_self" title="No namespace">interactive</a></b> / <b><a href="apexconfig.html#apex_apex_interactive_constraints" target="_self" title="No namespace">constraints</a></b> / constraint</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -2800,7 +2839,110 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </td>
+            <td class="rt_lineRight"></td>
+         </tr>
+         <tr>
+            <td class="rt_cornerBottomLeft"></td>
+            <td class="rt_lineBottom"></td>
+            <td class="rt_cornerBottomRight"></td>
+         </tr>
+      </table>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_useInstallationWideSettings"></a><div class="componentTitle">Element <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / useInstallationWideSettings</span></div>
+      <table class="rt">
+         <tr>
+            <td class="rt_cornerTopLeft"></td>
+            <td class="rt_lineTop"></td>
+            <td class="rt_cornerTopRight"></td>
+         </tr>
+         <tr>
+            <td class="rt_lineLeft"></td>
+            <td class="rt_content">
+               <table class="component">
+                  <tbody>
+                     <tr>
+                        <td class="firstColumn"><b>Namespace</b></td>
+                        <td>No namespace</td>
+                     </tr>
+                     <tr>
+                        <td class="firstColumn">
+                           <div class="floatLeft"><b>Annotations</b></div>
+                           <div class="floatRight"><input id="button_annotations_apex_useInstallationWideSettings" type="image" src="img/btM.gif" value="-" onclick="switchState('annotations_apex_useInstallationWideSettings');" class="control" /></div>
+                        </td>
+                        <td>
+                           <div id="annotations_apex_useInstallationWideSettings" style="display:block">
+                              <div class="annotation">
+                                 <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
+                                    <tr>
+                                       <td width="100%"><pre><span class="tT">Specify whether to use user-specific settings or installation-wide settings. User-specific settings are</span><span class="tI">
+</span><span class="tT">stored in a user specific location (on windows under [HKEY_CURRENT_USER\Software\ExpORL\APEX] in the</span><span class="tI">
+</span><span class="tT">registry, on linux in $HOME/.config/ExpORL/APEX.conf). Installation-wide settings are stored in the folder</span><span class="tI">
+</span><span class="tT">where the apex binary resides (e.g. /path/to/apex-installation/config/ExpORL/APEX.ini).</span></pre></td>
+                                    </tr>
+                                 </table>
+                              </div>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="firstColumn">
+                           <div class="floatLeft"><b>Diagram</b></div>
+                           <div class="floatRight"><input id="button_diagram_apex_useInstallationWideSettings" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_apex_useInstallationWideSettings');" class="control" /></div>
+                        </td>
+                        <td class="diagram">
+                           <div id="diagram_apex_useInstallationWideSettings" style="display:block"><img alt="Diagram" border="0" src="img/apexconfig_xsd_Element_useInstallationWideSettings.jpeg" /></div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="firstColumn"><b>Type</b></td>
+                        <td><b>xs:boolean</b></td>
+                     </tr>
+                     <tr>
+                        <td class="firstColumn">
+                           <div class="floatLeft"><b>Properties</b></div>
+                           <div class="floatRight"><input id="button_properties_apex_useInstallationWideSettings" type="image" src="img/btM.gif" value="-" onclick="switchState('properties_apex_useInstallationWideSettings');" class="control" /></div>
+                        </td>
+                        <td>
+                           <div id="properties_apex_useInstallationWideSettings" style="display:block">
+                              <table class="propertiesTable">
+                                 <tr>
+                                    <td class="firstColumn" style="white-space: nowrap;">content</td>
+                                    <td><b>simple</b></td>
+                                 </tr>
+                                 <tr>
+                                    <td class="firstColumn" style="white-space: nowrap;">minOccurs</td>
+                                    <td><b>0</b></td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="firstColumn">
+                           <div class="floatLeft"><b>Source</b></div>
+                           <div class="floatRight"><input id="button_source_apex_useInstallationWideSettings" type="image" src="img/btM.gif" value="-" onclick="switchState('source_apex_useInstallationWideSettings');" class="control" /></div>
+                        </td>
+                        <td>
+                           <div id="source_apex_useInstallationWideSettings" style="display:block">
+                              <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
+                                 <tr>
+                                    <td width="100%"><pre><span class="tEl">&lt;xs:element</span><span class="tAN"> name=</span><span class="tAV">"useInstallationWideSettings"</span><span class="tAN"> type=</span><span class="tAV">"xs:boolean"</span><span class="tAN"> minOccurs=</span><span class="tAV">"0"</span><span class="tEl">&gt;</span><span class="tI">
+  </span><span class="tEl">&lt;xs:annotation</span><span class="tEl">&gt;</span><span class="tI">
+    </span><span class="tEl">&lt;xs:documentation</span><span class="tEl">&gt;</span><span class="tT" style="white-space:normal">Specify whether to use user-specific settings or installation-wide settings. User-specific settings are stored in a user specific location (on windows under [HKEY_CURRENT_USER\Software\ExpORL\APEX] in the registry, on linux in $HOME/.config/ExpORL/APEX.conf). Installation-wide settings are stored in the folder where the apex binary resides (e.g. /path/to/apex-installation/config/ExpORL/APEX.ini).</span><span class="tEl">&lt;/xs:documentation&gt;</span><span class="tI">
+  </span><span class="tEl">&lt;/xs:annotation&gt;</span><span class="tI">
+</span><span class="tEl">&lt;/xs:element&gt;</span></pre></td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="firstColumn"><b>Schema location</b></td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2827,7 +2969,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.1/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -2925,7 +3067,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -2952,7 +3094,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.1/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -3042,7 +3184,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3069,7 +3211,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                   <tbody>
                      <tr>
                         <td class="firstColumn"><b>Namespace</b></td>
-                        <td>http://med.kuleuven.be/exporl/apex/4.0.0/experiment</td>
+                        <td>http://med.kuleuven.be/exporl/apex/4.0.1/experiment</td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
@@ -3167,7 +3309,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3180,7 +3322,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="drivernameType_driver"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="apexconfig.html#drivernameType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:drivernameType</a></b> / @driver</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="drivernameType_driver"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="apexconfig.html#drivernameType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:drivernameType</a></b> / @driver</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3226,7 +3368,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Complex Type </td>
-                                    <td><b><a href="apexconfig.html#drivernameType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:drivernameType</a></b></td>
+                                    <td><b><a href="apexconfig.html#drivernameType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:drivernameType</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -3249,7 +3391,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3262,7 +3404,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="soundcardType_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="apexconfig.html#soundcardType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:soundcardType</a></b> / @id</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="soundcardType_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="apexconfig.html#soundcardType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:soundcardType</a></b> / @id</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3308,7 +3450,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Complex Type </td>
-                                    <td><b><a href="apexconfig.html#soundcardType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:soundcardType</a></b></td>
+                                    <td><b><a href="apexconfig.html#soundcardType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:soundcardType</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -3331,7 +3473,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3344,7 +3486,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="cohDriverType_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="apexconfig.html#cohDriverType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:cohDriverType</a></b> / @id</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="cohDriverType_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="apexconfig.html#cohDriverType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:cohDriverType</a></b> / @id</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3390,7 +3532,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Complex Type </td>
-                                    <td><b><a href="apexconfig.html#cohDriverType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:cohDriverType</a></b></td>
+                                    <td><b><a href="apexconfig.html#cohDriverType" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:cohDriverType</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -3413,7 +3555,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3426,7 +3568,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_prefixes_apex_apex_prefixes_prefix_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_prefixes" target="_self" title="No namespace">prefixes</a></b> / <b><a href="apexconfig.html#apex_apex_prefixes_prefix" target="_self" title="No namespace">prefix</a></b> / @id</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_prefixes_apex_apex_prefixes_prefix_id"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_prefixes" target="_self" title="No namespace">prefixes</a></b> / <b><a href="apexconfig.html#apex_apex_prefixes_prefix" target="_self" title="No namespace">prefix</a></b> / @id</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3495,7 +3637,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3508,7 +3650,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_interactive_apex_apex_interactive_constraints_apex_apex_interactive_apex_apex_interactive_constraints_constraint_expression"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_interactive" target="_self" title="No namespace">interactive</a></b> / <b><a href="apexconfig.html#apex_apex_interactive_constraints" target="_self" title="No namespace">constraints</a></b> / <b><a href="apexconfig.html#apex_apex_interactive_apex_apex_interactive_constraints_constraint" target="_self" title="No namespace">constraint</a></b> / @expression</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_apex_interactive_apex_apex_interactive_constraints_apex_apex_interactive_apex_apex_interactive_constraints_constraint_expression"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / <b><a href="apexconfig.html#apex_interactive" target="_self" title="No namespace">interactive</a></b> / <b><a href="apexconfig.html#apex_apex_interactive_constraints" target="_self" title="No namespace">constraints</a></b> / <b><a href="apexconfig.html#apex_apex_interactive_apex_apex_interactive_constraints_constraint" target="_self" title="No namespace">constraint</a></b> / @expression</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3577,7 +3719,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
@@ -3590,7 +3732,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
             <td class="rt_cornerBottomRight"></td>
          </tr>
       </table>
-      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_version"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b> / @version</span></div>
+      <div class="toTop"><a href="#INDEX"> [ top ] </a></div><a id="apex_version"></a><div class="componentTitle">Attribute <span class="qname"><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b> / @version</span></div>
       <table class="rt">
          <tr>
             <td class="rt_cornerTopLeft"></td>
@@ -3636,7 +3778,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Element </td>
-                                    <td><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.0/experiment">apex:apex</a></b></td>
+                                    <td><b><a href="apexconfig.html#apex" target="_self" title="http://med.kuleuven.be/exporl/apex/4.0.1/experiment">apex:apex</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -3659,7 +3801,7 @@ var modelBoxes= new Array('model_soundcardType_drivername',
                      </tr>
                      <tr>
                         <td class="firstColumn"><b>Schema location</b></td>
-                        <td>file:/home/u0097884/workstuff/apex/data/schemas/apexconfig.xsd</td>
+                        <td>file:/home/luna.kuleuven.be/u0127045/apex/data/schemas/apexconfig.xsd</td>
                      </tr>
                   </tbody>
                </table>
